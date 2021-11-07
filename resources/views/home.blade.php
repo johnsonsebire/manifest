@@ -34,12 +34,12 @@
 						<p class="m-b-40">For 6+ years we've empowered <span class="text-color-primary">everyone</span> within our reach with 
 							the best tools to leverage technology to enhance thier lives and to grow their businesses.</p>
 						<div class="row">
-							<div class="col-lg-6">
+							{{-- <div class="col-lg-6">
 								<a href="#demos" class="button button-primary transition-3d-hover sm-margin-bottom-30 d-block">Explore Demos</a>
-							</div>
-							<div class="col-lg-6">
+							</div> --}}
+							{{-- <div class="col-lg-6">
 								<a href="https://themeforest.net/item/bodrum-modular-multi-purpose-html5-template/25649533" target="_blank" class="button button-success-soft transition-3d-hover d-block">Buy Now</a>
-							</div>
+							</div> --}}
 						</div>
 					</div>
 				</div>
