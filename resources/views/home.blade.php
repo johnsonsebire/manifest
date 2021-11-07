@@ -25,14 +25,15 @@
 			<div class="row d-flex align-items-center">
 				<div class="col-lg-5">
 					<div class="content">
-						<div class="news m-b-40">
+						{{-- <div class="news m-b-40">
 							<div class="info">NEW LOOK</div>
 							<span>A new Look is Loading.</span>
-							<span class="pull-right version">Yello</span>
-						</div>
-						<h1 class="m-b-10">Welcome to Manifest Multimedia</h1>
+							<span class="pull-right version"></span>
+						</div> --}}
+						<h1 class="m-b-10">Welcome to <br /> Manifest Multimedia</h1>
 						<p class="m-b-40">For 6+ years we've empowered <span class="text-color-primary">everyone</span> within our reach with 
-							the best tools to leverage technology to enhance thier lives and to grow their businesses.</p>
+							the best tools to leverage technology to enhance thier lives and to grow their businesses. Now it's time for us to give ourselves
+						a refreshing new look with more products to help you win. <br /><span class="text-color-primary"> Please check back soon! </span></p>
 						<div class="row">
 							{{-- <div class="col-lg-6">
 								<a href="#demos" class="button button-primary transition-3d-hover sm-margin-bottom-30 d-block">Explore Demos</a>
