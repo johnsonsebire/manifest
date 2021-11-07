@@ -40,7 +40,6 @@ task('notify', function(){
     $response= SMSnotify($destination, $message); 
     write('Sending SMS Notification');
     
-    
     // print_r($response);
     
     }); 
@@ -56,4 +55,4 @@ after('deploy:failed', 'deploy:unlock');
 
 before('deploy:symlink', 'artisan:migrate');
 
-after('success', 'notify');
+// after('success', 'notify');
