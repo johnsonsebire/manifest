@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="position-absolute top-20">
-						<img src="{{asset('frontend/images/logo/dark.svg')}}" alt="">
+						{{-- <img src="{{asset('frontend/images/logo/dark.svg')}}" alt=""> --}}
 						<span class="position-absolute top-9 m-l-10 version"></span>
 					</div>
 				</div>
@@ -26,12 +26,13 @@
 				<div class="col-lg-5">
 					<div class="content">
 						<div class="news m-b-40">
-							<div class="info">LAST UPDATE</div>
-							<span>2 new page added.</span>
-							<span class="pull-right version"></span>
+							<div class="info">NEW LOOK</div>
+							<span>A new Look is Loading.</span>
+							<span class="pull-right version">Yello</span>
 						</div>
-						<h1 class="m-b-10">Modular Multi Purpose HTML5 Template</h1>
-						<p class="m-b-40">To create <span class="text-color-primary">next-generation</span> web projects, start using our pre-built pages and our modular HTML5 UI Kit right away. We will continue to create new pages and demos every week.</p>
+						<h1 class="m-b-10">Welcome to Manifest Multimedia</h1>
+						<p class="m-b-40">For 6+ years we've empowered <span class="text-color-primary">everyone</span> within our reach with 
+							the best tools to leverage technology to enhance thier lives and to grow their businesses.</p>
 						<div class="row">
 							<div class="col-lg-6">
 								<a href="#demos" class="button button-primary transition-3d-hover sm-margin-bottom-30 d-block">Explore Demos</a>
@@ -123,7 +124,7 @@
 
 
 	<!-- Numbers Start -->
-	<section class="box p-t-80 p-b-80">
+	{{-- <section class="box p-t-80 p-b-80">
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-lg-4 text-center sm-m-b-30">
@@ -140,12 +141,12 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 	<!-- Numbers End -->
 
 
 	<!-- Page Content Start -->
-	<section class="p-t-120 p-b-90">
+	{{-- <section class="p-t-120 p-b-90">
 		<div class="container">
 			<div class="row text-center" id="demos">
 				<div class="offset-lg-3 col-lg-6">
@@ -173,7 +174,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 	<!-- Page Content End -->
 
 	<x-frontendfooter />

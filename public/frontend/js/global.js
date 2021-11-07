@@ -7,7 +7,7 @@ Author: Tempload - support@tempload.com
 	"use strict";
 
 
-	const version = 'v1.0.8';
+	const version = 'F5';
 
 
 	// Window Resize Mobile Menu Fix

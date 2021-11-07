@@ -2,7 +2,7 @@
 <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
 
 <!-- Footer Section Start -->
-<section class="p-t-120 p-b-120 bg-white border-top border-bottom">
+{{-- <section class="p-t-120 p-b-120 bg-white border-top border-bottom">
     <div class="container">
         <div class="row">
             <div class="offset-lg-3 col-lg-6">
@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- Footer Section End -->
 
 
