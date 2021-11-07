@@ -17,7 +17,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="position-absolute top-20">
-						{{-- <img src="{{asset('frontend/images/logo/dark.svg')}}" alt=""> --}}
+						{{-- <img src="{{asset('frontend/images/logo/logo-dark.svg')}}" alt="Manifest Multimedia Logo"> --}}
+						<img src="{{asset('frontend/images/logo/logo.png')}}" alt="Manifest Multimedia Logo">
 						<span class="position-absolute top-9 m-l-10 version"></span>
 					</div>
 				</div>
