@@ -37,7 +37,9 @@ task('notify', function(){
     // SEND SMS
     $destination="233549539417"; 
     $message="Application Successfully Deployed for Manifest Multimedia"; 
+
     $response= SMSnotify($destination, $message); 
+    
     write('Sending SMS Notification');
     
     // print_r($response);
@@ -55,4 +57,4 @@ after('deploy:failed', 'deploy:unlock');
 
 before('deploy:symlink', 'artisan:migrate');
 
-// after('success', 'notify');
+after('success', 'notify');
