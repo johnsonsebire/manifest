@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home &mdash; Manifest Multimedia </title>
+	{{$slot}}
 	<meta name="description" content="Manifest - Trusted Full Stack IT Company." />
 	<meta name="keywords" content="web design, startup, saas, agency, development, html, mobile apps, business mail" />
 	<meta name="author" content="Johnson Sebire" />
@@ -21,6 +21,3 @@
 <!-- Custom CSS -->
 <link href="{{asset("frontend/css/theme.css")}}" rel="stylesheet" type="text/css">
 </head>
-
-    
-

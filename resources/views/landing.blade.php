@@ -1,4 +1,7 @@
-<x-landingheader /> 
+<x-landingheader >
+	<title>Home &mdash; Manifest Multimedia </title> 
+</x-landingheader>
+
 <body class="body-gray">
 
 
@@ -124,4 +127,4 @@
 	</section>
 	
 
-	<x-frontendfooter />
+	<x-landingfooter />
