@@ -2,12 +2,11 @@
     <x-slot name="title">
         Login &mdash; Manifest Multimedia 
         </x-slot>
-
     	<!-- Page Start -->
 	<section class="m-t-80 h-full">
 
         <!-- Left Start -->
-		<div class="login-left parallax overlay-blue opacity-70" data-image-src="../assets/images/photos/login/1.jpg">
+		<div class="login-left parallax overlay-blue opacity-90" data-image-src="{{asset('frontend/images/photos/login/ease.jpg')}}">
 			<div class="container-fluid position-absolute z-i-2 bottom-100">
 				<div class="row">
 					<div class="offset-lg-2 offset-md-2 col-lg-8 col-md-8">
@@ -42,7 +41,7 @@
 
 							<!-- item start -->
 							<div class="item">
-                                <p class="text-white m-b-20">EXCELLENT SERVICE... PROMPT DELIVERY   </p>
+                                <p class="text-white m-b-20">Excellent Service ... Prompt Delivery</p>
 								<strong class="d-block text-white text-uppercase">Prophetess Ruth Martey</strong>
 								<span class="d-block text-white">America</span>
                                 <a href="https://www.trustpilot.com/review/manifestghana.com" style="color:white; text-decoration:none"><strong>Trust Pilot</strong></a>
@@ -63,7 +62,7 @@
 		</div>
 		<!-- Left End -->
 
-        	<!-- Right Start -->
+        <!-- Right Start -->
 		<div class="login-right d-flex align-items-center">
 			<div class="container-fluid">
 				<div class="row">
@@ -73,17 +72,7 @@
 						<div class="row">
                             <div class="col-lg-12">
                                 
-                            @if ($errors->any())
-							
-                                <div class="alert alert-info" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 4000)">
-                                    <div class="font-medium text-red-600"><h4 class="alert-heading"> {{ __('Whoops! Login Failed.') }} </h4></div>
-                                    <ul class="alert alert-danger mt-3 text-sm text-red-600" style="list-style: none">
-                                        @foreach ($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                        @endforeach
-                                    </ul>
-                                </div>
-                            @endif
+                           
                                 {{-- <x-jet-validation-errors class="alert alert-danger" /> --}}
                                 @if (session('status'))
                                     <div class="mb-4 font-medium text-sm text-green-600">
@@ -116,9 +105,11 @@
                                     </div>
                                  
 						<div class="row d-flex align-items-center">
-							<div class="col-8">
-								<span>Don’t have account? <a href="signup.html">Signup</a></span>
-							</div>
+							@if(Route::has('register'))
+								<div class="col-8">
+									<span>Don’t have account? <a href="{{route('register')}}">Create One</a></span>
+								</div>
+							@endif
 							<div class="col-4">
 								<button class="button button-primary transition-3d-hover pull-right" type="submit"> {{ __('Log in') }}</button>
 							</div>
@@ -131,10 +122,4 @@
 		<!-- Right End -->
 	</section>
 
-
-            
-            
-
-     
-   
 </x-frontendlayout>

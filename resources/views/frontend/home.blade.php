@@ -1,8 +1,7 @@
 <x-frontendlayout>
-
-<x-slot name="title">
-Home &mdash; Manifest Multimedia 
-</x-slot>
+	<x-slot name="title">
+		Home &mdash; Manifest Multimedia 
+	</x-slot>
 
 <!-- Welcome Start -->
 	<section class="welcome-auto m-t-80" id="particle-buble">
@@ -14,10 +13,10 @@ Home &mdash; Manifest Multimedia
 					<p class="m-b-40">Anybody can set up an app or a website. We build strategic, engaging experiences that reinforce credibility, communicate key information and turn prospects into profits.</p>
 					<div class="row">
 						<div class="col-lg-5 col-12">
-							<x-anchor href="{{Route::has('buildwebsite')?'/build-website':'/login'}}" class="button-primary" >Build a Website </x-anchor>
+							<x-anchor href="{{Route::has('build-website')?'/build-website':'/login'}}" class="button-primary" >Build a Website </x-anchor>
 						</div>
 						<div class="col-lg-5 col-12">
-							<x-anchor href='#' class="button-primary-soft" > Build an App </x-anchor>
+							<x-anchor href="{{Route::has('build-app')?'/build-app':'/login'}}" class="button-primary-soft" > Build an App </x-anchor>
 						</div>
 					</div>
 				</div>
