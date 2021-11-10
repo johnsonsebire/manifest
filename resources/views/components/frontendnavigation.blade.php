@@ -8,14 +8,13 @@
     <!-- Navigation Start -->
     <nav class="menu pull-right">
         <ul class="menu-container list-unstyled d-flex align-items-center">
-            {{-- <li class="menu-item"> <a href="/home" class="nav-link">Home</a> </li> --}}
             <!-- Mega Menu Start -->
             <li class="menu-item open-mega-menu">
                 <a class="nav-link submenu-icon" href="javascript:;">Solutions</a>
                 <div class="mega-menu box overflow-hidden rounded-bottom">
                     <div class="row no-gutters">
                         <div class="col-lg-6">
-                            <div class="mega-menu-img imgfix overlay-orange opacity-80">
+                            <div class="mega-menu-img imgfix overlay-orange opacity-90">
                                 <img src="{{asset('frontend/images/photos/navbar/innovate.jpg')}}" alt="Leading Innovation">
                                 <div class="content text-center">
                                     <h3 class="text-white">Innovate. Create. Communicate.</h3>
@@ -42,7 +41,7 @@
                                 <div class="col-lg-4">
                                     <span class="sub-title text-uppercase">Web Services</span>
                                     <ul class="list-unstyled m-b-20">
-                                    
+                                        
                                         <li><a href="#">Domain Sales</a></li>
                                         <li><a href="#">Shared Hosting</a></li>
                                         <li><a href="#">WordPress Hosting</a></li>
@@ -64,7 +63,6 @@
                                     <span class="sub-title text-uppercase">Other</span>
                                     <ul class="list-unstyled m-b-20">
                                         <li><a href="#">Zoho Business</a></li>
-                                        {{-- <li><a href="#">Google Business</a></li> --}}
                                         <li><a href="#">Office 365</a></li>
                                         <li><a href="#">Avast Security</a></li>
                                     </ul>
@@ -76,6 +74,7 @@
                 </div>
             </li>
             <!-- Mega Menu End -->
+            <li class="menu-item"> <a href="https://support.manifestghana.com" class="nav-link">Support</a> </li>
 
             {{-- <!-- Sub Menu Start -->
             <li class="menu-item open-sub-menu">
@@ -302,7 +301,7 @@
             </li>
             <li class="menu-item d-none d-lg-block">
                 {{-- <a class="button-primary-soft transition-3d-hover" href="#" target="_blank">Build an App</a> --}}
-                <x-anchor class="nav-button-soft"> Login </x-anchor>
+                <x-anchor href='/login' class="nav-button-soft"> Login </x-anchor>
             </li>
         </ul>
     </nav>

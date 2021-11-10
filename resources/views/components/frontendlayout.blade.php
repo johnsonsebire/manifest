@@ -24,7 +24,7 @@
 
 
 <body>
-
+    @if(request()->is("home"))
 	<!-- ***** Preloader Start ***** -->
 	<div id="preloader">
 		<div id="loader" class="spinner">
@@ -32,6 +32,7 @@
 			<div id="box"></div>
 		</div>
 	</div>
+    @endif
 	<!-- ***** Preloader End ***** -->
 <!-- Header Start -->
 <header class="main-nav-container box">
@@ -49,7 +50,10 @@
 
 
 
-<!-- Footer Start -->
+    
+@if(!request()->is("login"))
+
+    <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
         {{-- <div class="row">
@@ -95,6 +99,8 @@
     </div>
 </footer>
 <!-- Footer End -->
+
+@endif
 
 
 <!-- jQuery -->

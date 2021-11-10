@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\frontendController; 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::view('/', 'frontend.landing');
 Route::view('/home', 'frontend.home'); 
+// Route::get('/home', [frontendController::class,'index']);
+Route::view('/culture', 'frontend.culture'); 
+Route::view('/home', 'frontend.home'); 
+
 
 // Route::get('/', function () {
 //     return view('landing');
