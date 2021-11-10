@@ -16,7 +16,7 @@
                     <div class="row no-gutters">
                         <div class="col-lg-6">
                             <div class="mega-menu-img imgfix overlay-orange opacity-80">
-                                {{-- <img src="{{asset('frontend/images/photos/navbar/1.jpg')}}" alt=""> --}}
+                                <img src="{{asset('frontend/images/photos/navbar/innovate.jpg')}}" alt="Leading Innovation">
                                 <div class="content text-center">
                                     <h3 class="text-white">Innovate. Create. Communicate.</h3>
                                     <p class="text-white m-b-30">We deliver. Period!</p>

@@ -52,7 +52,7 @@
 <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12">
                 <img src="../assets/images/logo/dark.svg" class="m-b-20" alt="">
                 <div class="text">Manifest Multimedia is Your best choice for all IT Solutions - Trusted Startup Ecosystem for websites, apps, branding & communication solutions</div>
@@ -86,7 +86,7 @@
                     <p>E-Mail: <a href="#">business@manifestghana.com</a></p>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="row">
             <div class="col-lg-12">
                 <p class="copyright text-center">© {{ now()->year }} Manifest Group. All Rights Reserved.</p>

@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'landing');
-
-Route::view('/home', 'home'); 
+Route::view('/', 'frontend.landing');
+Route::view('/home', 'frontend.home'); 
 
 // Route::get('/', function () {
 //     return view('landing');
