@@ -74,9 +74,9 @@
                             <div class="col-lg-12">
                                 
                             @if ($errors->any())
-                                <div class="alert alert-info">
+							
+                                <div class="alert alert-info" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 4000)">
                                     <div class="font-medium text-red-600"><h4 class="alert-heading"> {{ __('Whoops! Login Failed.') }} </h4></div>
-
                                     <ul class="alert alert-danger mt-3 text-sm text-red-600" style="list-style: none">
                                         @foreach ($errors->all() as $error)
                                             <li>{{ $error }}</li>

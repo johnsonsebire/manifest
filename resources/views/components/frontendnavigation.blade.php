@@ -1,6 +1,6 @@
 <div class="main-nav">
     <!-- Logo Start -->
-    <a href="/home" class="logo pull-left d-flex align-items-center">
+    <a href="{{route('home')}}" class="logo pull-left d-flex align-items-center">
         <img src="{{asset('frontend/images/logo/logo.png')}}" alt="Manifest Logo">
     </a>
     <!-- Logo End -->
@@ -8,6 +8,7 @@
     <!-- Navigation Start -->
     <nav class="menu pull-right">
         <ul class="menu-container list-unstyled d-flex align-items-center">
+            @if(Route::has('retail'))
             <!-- Mega Menu Start -->
             <li class="menu-item open-mega-menu">
                 <a class="nav-link submenu-icon" href="javascript:;">Solutions</a>
@@ -19,60 +20,113 @@
                                 <div class="content text-center">
                                     <h3 class="text-white">Innovate. Create. Communicate.</h3>
                                     <p class="text-white m-b-30">We deliver. Period!</p>
+                                    @if (Route::has('culture'))
                                     <a href="/culture" class="button button-manifest-primary transition-3d-hover">Learn More About Us!</a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 p-25">
                             <div class="row no-gutters">
+                                @if(Route::has('retail'))
                                 <div class="col-lg-4">
                                     <span class="sub-title text-uppercase">Industry</span>
                                     <ul class="list-unstyled">
-                                        <li><a href="#">Retail</a></li>
-                                        <li><a href="#">Healthcare</a></li>
-                                        <li><a href="#">Blockchain</a></li>
-                                        <li><a href="#">Education</a></li>
-                                        <li><a href="#">Charity</a></li>
-                                        <li><a href="#">Government</a></li>
-                                        <li><a href="#">Technology</a></li>
-                                        <li><a href="#">Human Resources</a></li>
+                                        @if (Route::has('retail'))
+                                            <li><a href="#">Retail</a></li>
+                                        @endif
+                                        @if (Route::has('healthcare'))
+                                            <li><a href="#">Healthcare</a></li>
+                                        @endif
+                                        @if (Route::has('blockchain'))
+                                            <li><a href="#">Blockchain</a></li>
+                                        @endif
+                                        @if (Route::has('education'))
+                                           
+                                            <li><a href="#">Education</a></li>
+                                        @endif
+                                        @if (Route::has('charity'))
+                                            <li><a href="#">Charity</a></li>
+                                        @endif
+                                        @if (Route::has('government'))
+                                            <li><a href="#">Government</a></li>
+                                        @endif
+                                        @if (Route::has('technology'))
+                                            <li><a href="#">Technology</a></li>
+                                        @endif
+                                        @if (Route::has('hr'))
+                                            <li><a href="#">Human Resources</a></li>
+                                        @endif
                                     </ul>
                                 </div>
-                                <div class="col-lg-4">
-                                    <span class="sub-title text-uppercase">Web Services</span>
-                                    <ul class="list-unstyled m-b-20">
-                                        
-                                        <li><a href="#">Domain Sales</a></li>
-                                        <li><a href="#">Shared Hosting</a></li>
-                                        <li><a href="#">WordPress Hosting</a></li>
-                                        <li><a href="#">VPS</a></li>
-                                        <li><a href="#">Dedicated Servers</a></li>
-                                        <li><a href="#">Managed Hosting</a></li>
-                                        <li><a href="#">SSL Certificates</a></li>
-                                        <li><a href="#">Site Security</a></li>
-                                    </ul>
-                                    
-                                </div>
-                                <div class="col-lg-4">
-                                    <span class="sub-title text-uppercase">Software</span>
-                                    <ul class="list-unstyled m-b-20">
-                                        <li><a href="#">SmartAccounting</a></li>
-                                        <li><a href="#">SmartPOS</a></li>
-                                        <li><a href="#">SmartLMS</a></li>
-                                    </ul>
-                                    <span class="sub-title text-uppercase">Other</span>
-                                    <ul class="list-unstyled m-b-20">
-                                        <li><a href="#">Zoho Business</a></li>
-                                        <li><a href="#">Office 365</a></li>
-                                        <li><a href="#">Avast Security</a></li>
-                                    </ul>
-                                </div>
-                                
+                                @endif
+                                @if (Route::has('domains'))
+                                    <li><a href="#">Human Resources</a></li>
+                            
+                                    <div class="col-lg-4">
+                                        <span class="sub-title text-uppercase">Web Services</span>
+                                        <ul class="list-unstyled m-b-20">
+                                            @if(Route::has('domains'))
+                                                <li><a href="#">Domain Sales</a></li>
+                                            @endif
+                                            @if(Route::has('shared-hosting'))
+                                                <li><a href="#">Shared Hosting</a></li>
+                                            @endif 
+                                            @if(Route::has('wordpress-hosting'))
+                                                <li><a href="#">WordPress Hosting</a></li>
+                                            @endif
+                                            @if(Route::has('vps'))
+                                                <li><a href="#">VPS</a></li>
+                                            @endif
+                                            @if(Route::has('dedicated-servers'))
+                                                <li><a href="#">Dedicated Servers</a></li>
+                                            @endif
+                                            @if(Route::has('managed-hosting'))
+                                                <li><a href="#">Managed Hosting</a></li>
+                                            @endif
+                                            @if(Route::has('ssl-certificates'))
+                                            <li><a href="#">SSL Certificates</a></li>
+                                            @endif
+                                            @if(Route::has('site-security'))
+                                            <li><a href="#">Site Security</a></li>
+                                            @endif
+                                        </ul>
+                                    </div>
+                                @endif
+                                @if(Route::has('smart-accounting'))
+                                    <div class="col-lg-4">
+                                        <span class="sub-title text-uppercase">Software</span>
+                                        <ul class="list-unstyled m-b-20">
+                                            @if(Route::has('smart-account'))
+                                                <li><a href="#">SmartAccounting</a></li>
+                                            @endif
+                                            @if(Route::has('smart-pos'))
+                                                <li><a href="#">SmartPOS</a></li>
+                                            @endif
+                                            @if(Route::has('smart-lms'))
+                                                <li><a href="#">SmartLMS</a></li>
+                                            @endif
+                                        </ul>
+                                        <span class="sub-title text-uppercase">Other</span>
+                                        <ul class="list-unstyled m-b-20">
+                                            @if(Route::has('zoho-business'))
+                                                <li><a href="#">Zoho Business</a></li>
+                                            @endif
+                                            @if(Route::has('office-365'))
+                                                <li><a href="#">Office 365</a></li>
+                                            @endif
+                                            @if(Route::has('avast-security'))
+                                                <li><a href="#">Avast Security</a></li>
+                                            @endif
+                                        </ul>
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     </div>
                 </div>
             </li>
+            @endif
             <!-- Mega Menu End -->
             <li class="menu-item"> <a href="https://support.manifestghana.com" class="nav-link">Support</a> </li>
 
@@ -265,7 +319,7 @@
 
             <!-- Mini Menu Start -->
             {{-- <li class="menu-item open-mini-menu">
-                <a class="nav-link submenu-icon" href="javascript:;">Docs</a>
+                <a class="nav-link submenu-icon" href="javascript:;">Academy</a>
                 <div class="mini-menu w-300 h-auto box overflow-hidden rounded-bottom">
                     <div class="row no-gutters">
                         <div class="col-lg-12 p-l-r-10">
@@ -294,15 +348,19 @@
                 </div>
             </li> --}}
             <!-- Mini Menu End -->
-
-            <li class="menu-item d-none d-lg-block">
-                {{-- <a class="nav-button transition-3d-hover" href="#" target="_blank">Build a Website</a> --}}
-                <x-anchor class="nav-button"> Build a Solution </x-anchor>
-            </li>
-            <li class="menu-item d-none d-lg-block">
-                {{-- <a class="button-primary-soft transition-3d-hover" href="#" target="_blank">Build an App</a> --}}
-                <x-anchor href='/login' class="nav-button-soft"> Login </x-anchor>
-            </li>
+            @if(Route::has('create-a-site'))
+                <li class="menu-item d-none d-lg-block">
+                    {{-- <a class="nav-button transition-3d-hover" href="#" target="_blank">Build a Website</a> --}}
+                    <x-anchor class="nav-button"> Create a Site </x-anchor>
+                </li>
+            @endif
+            @if (Route::has('login'))
+                <li class="menu-item d-none d-lg-block">
+                    {{-- <a class="button-primary-soft transition-3d-hover" href="#" target="_blank">Build an App</a> --}}
+                    <x-anchor href='/login' class="nav-button-soft"> Login </x-anchor>
+                </li>
+            @endif
+            
         </ul>
     </nav>
     <!-- Navigation End -->

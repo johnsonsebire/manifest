@@ -14,18 +14,16 @@ use App\Http\Controllers\frontendController;
 */
 
 
-Route::view('/', 'frontend.landing');
-Route::view('/home', 'frontend.home'); 
-// Route::get('/home', [frontendController::class,'index']);
-Route::view('/culture', 'frontend.culture'); 
-Route::view('/home', 'frontend.home'); 
-
+// Route::view('/', 'frontend.landing');
+Route::view('/', 'frontend.home')->name('home'); 
+Route::view('/culture', 'frontend.culture')->name('culture'); 
+Route::view('/culture', 'frontend.culture')->name('solutions'); 
 
 // Route::get('/', function () {
 //     return view('landing');
 // });
 
 
-// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-//     return view('dashboard');
-// })->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');

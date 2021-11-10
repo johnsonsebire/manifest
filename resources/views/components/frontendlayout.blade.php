@@ -20,6 +20,10 @@
 
 <!-- Custom CSS -->
 <link href="{{asset("frontend/css/theme.css")}}" rel="stylesheet" type="text/css">
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+
+
 </head>
 
 
@@ -51,8 +55,8 @@
 
 
     
-@if(!request()->is("login"))
-
+{{-- @if(!request()->is("login")) --}}
+@if(!Route::is('login'))
     <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
