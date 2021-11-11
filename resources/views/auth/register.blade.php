@@ -111,13 +111,13 @@
                             <input class="input" type="email" placeholder="Email" id="email" type="email" name="email" :value="old('email')" required />
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="form-item m-b-20">
                             <label class="lbl" for="password">{{ __('Password') }}</label>
                             <input class="input" type="password" placeholder="Password" id="password" type="password" name="password" required autocomplete="new-password" />
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="form-item m-b-10">
                             <label class="lbl" for="password_confirmation">{{ __('Confirm Password') }}</label>
                             <input class="input" type="password" name="password_confirmation" id="password_confirmation" placeholder="Password" required autocomplete="new-password"/>
