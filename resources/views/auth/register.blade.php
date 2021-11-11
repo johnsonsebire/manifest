@@ -127,8 +127,8 @@
                         <div class="col-lg-12 m-b-20">
                             <div class="form-item">
                                 <div class="checkbox">
-                                    <input class="checkbox-input" type="checkbox" id="form4">
-                                    <label class="checkbox-lbl" for="form4">I agree to the <a href="#" data-toggle="modal" data-target="#myModal">Terms and Conditions</a></label>
+                                    <input class="checkbox-input" type="checkbox" name="terms" id="terms">
+                                    <label class="checkbox-lbl" for="terms">I agree to the <a href="#" data-toggle="modal" data-target="#myModal">Terms and Conditions</a></label>
                                 </div>
                             </div>
                         </div>
