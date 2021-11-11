@@ -71,9 +71,7 @@
 						<p class="m-b-40">Login to manage your account.</p>
 						<div class="row">
                             <div class="col-lg-12">
-                                
-                           
-                                {{-- <x-jet-validation-errors class="alert alert-danger" /> --}}
+                                	<x-validationerrors />
                                 @if (session('status'))
                                     <div class="mb-4 font-medium text-sm text-green-600">
                                         {{ session('status') }}
