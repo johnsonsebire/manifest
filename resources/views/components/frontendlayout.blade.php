@@ -56,7 +56,7 @@
 
     
 {{-- @if(!request()->is("login")) --}}
-@if(!Route::is(['login', 'register']))
+@if(!Route::is(['login', 'register', 'password.request']))
     <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
