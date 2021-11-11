@@ -107,7 +107,7 @@
 						<div class="row d-flex align-items-center">
 							@if(Route::has('register'))
 								<div class="col-8">
-									<span>Don’t have account? <a href="{{route('register')}}">Create One</a></span>
+									{{-- <span>Don’t have account? <a href="{{route('register')}}">Create One</a></span> --}}
 								</div>
 							@endif
 							<div class="col-4">
