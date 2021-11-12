@@ -1,6 +1,6 @@
 <x-frontendlayout>
     <x-slot name="title">
-        Login &mdash; Manifest Multimedia 
+        Password Recovery &mdash; Manifest Multimedia 
         </x-slot>
     	<!-- Page Start -->
 	<section class="m-t-80 h-full">

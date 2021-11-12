@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class frontendheader extends Component
+class backendsidebar extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class frontendheader extends Component
      */
     public function render()
     {
-        return view('components.frontendheader');
+        return view('components.backend-sidebar');
     }
 }

@@ -1,6 +1,6 @@
-<!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
 	<meta name="description" content="Manifest - Trusted Full Stack IT Company." />
 	<meta name="keywords" content="web design, startup, saas, agency, development, html, mobile apps, business mail" />
 	<meta name="author" content="Johnson Sebire" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}" />
@@ -20,7 +21,19 @@
 
 <!-- Custom CSS -->
 <link href="{{asset("frontend/css/theme.css")}}" rel="stylesheet" type="text/css">
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/554b259ef82948372f4615b6/1e9lrte10';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
 
 
@@ -129,19 +142,7 @@
 <!-- Global Init -->
 <script src="{{asset('frontend/js/global.js')}}"></script>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/554b259ef82948372f4615b6/1e9lrte10';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+
 
 </body>
 </html>
