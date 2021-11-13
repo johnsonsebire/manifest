@@ -3,13 +3,24 @@
 	<!-- Nav -->
 	<ul class="nav">
 	   <li class="nav-category">Main</li>
-	   <li class="active">
-		  <a href="index.html">
+	   <li class="{{ request()->is('dashboard')? 'active' : ''}}">
+		  <a href="{{route('dashboard')}}">
 			 <i class="icofont-pie-chart"></i>
 			 <span class="link-title">Dashboard</span>
 		  </a>
 	   </li>
-	   <li>
+
+	   <li>    
+		<i class="icofont-power"></i>
+		<form method="POST" action="{{ route('logout') }}">
+			@csrf
+			
+			<a href="{{ route('logout') }}"  onclick="event.preventDefault();
+			this.closest('form').submit();">                     {{ __('Log Out') }}</a>
+
+			</form>
+		</li> 
+	   {{-- <li>
 		  <a href="#">
 			 <i class="icofont-shopping-cart"></i>
 			 <span class="link-title">Ecommerce</span>
@@ -409,8 +420,8 @@
 			 <i class="icofont-not-allowed"></i>
 			 <span class="link-title">Disable Menu</span>
 		  </a>
-	   </li>
-	   <li class="nav-category">Support</li>
+	   </li> --}}
+	   {{-- <li class="nav-category">Support</li> --}}
 	</ul>
 	<!-- End Nav -->
  </div>

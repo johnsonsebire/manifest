@@ -22,7 +22,9 @@
 <!-- Custom CSS -->
 <link href="{{asset("frontend/css/theme.css")}}" rel="stylesheet" type="text/css">
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
+
+{{-- <script type="text/javascript" defer>
+@csrf
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -33,7 +35,7 @@
     s0.parentNode.insertBefore(s1,s0);
     })();
     </script>
-    <!--End of Tawk.to Script-->
+    <!--End of Tawk.to Script--> --}}
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
 
 
@@ -142,7 +144,7 @@
 <!-- Global Init -->
 <script src="{{asset('frontend/js/global.js')}}"></script>
 
-
+{{ \TawkTo::widgetCode() }}
 
 </body>
 </html>

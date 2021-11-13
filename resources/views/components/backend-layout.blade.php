@@ -49,8 +49,8 @@
       <header class="header white-bg fixed-top d-flex align-content-center flex-wrap">
          <!-- Logo -->
          <div class="logo">
-            <a href="{{ route('dashboard') }}" class="default-logo"><img src="{{asset('backend/img/logo.png')}}" alt="Logo"></a>
-            <a href="{{ route('dashboard') }}" class="mobile-logo"><img src="{{asset('backend/img/mobile-logo.png')}}" alt="Logo"></a>
+            <a href="{{ route('dashboard') }}" class="default-logo"><img src="{{asset('images/favicon.png')}}" alt="Logo"></a>
+            <a href="{{ route('dashboard') }}" class="mobile-logo"><img src="{{asset('images/favicon.png')}}" alt="Logo"></a>
          </div>
          <!-- End Logo -->
 
@@ -87,8 +87,8 @@
                            </a>
                            <div class="dropdown-menu">
                               <a href="#">My Profile</a>
-                              <a href="#">task</a>
-                              <a href="#">Settings</a>
+                              {{-- <a href="#">task</a>
+                              <a href="#">Settings</a> --}}
                               
                               <form method="POST" action="{{ route('logout') }}">
                                  @csrf
@@ -121,7 +121,7 @@
                         <ul class="nav">
                            <li class="ml-0">
                               <!-- Main Header Language -->
-                              <div class="main-header-language">
+                              {{-- <div class="main-header-language">
                                  <a href="#" data-toggle="dropdown">
                                     <img src="{{asset('backend/img/svg/globe-icon.svg')}}" alt="">
                                  </a>
@@ -155,35 +155,35 @@
                                        Algeria
                                     </a>
                                  </div>
-                              </div>
+                              </div> --}}
                               <!-- End Main Header Language -->
                            </li>
                            <li class="ml-0 d-none d-lg-flex">
                               <!-- Main Header Print -->
-                              <div class="main-header-print">
+                              {{-- <div class="main-header-print">
                                  <a href="#">
                                     <img src="{{asset('backend/img/svg/print-icon.svg')}}" alt="">
                                  </a>
-                              </div>
+                              </div> --}}
                               <!-- End Main Header Print -->
                            </li>
                            <li class="d-none d-lg-flex">
                               <!-- Main Header Time -->
-                              <div class="main-header-date-time text-right">
+                              {{-- <div class="main-header-date-time text-right">
                                  <h3 class="time">
                                     <span id="hours">21</span>
                                     <span id="point">:</span>
                                     <span id="min">06</span>
                                  </h3>
                                  <span class="date"><span id="date">Tue, 12 October 2019</span></span>
-                              </div>
+                              </div> --}}
                               <!-- End Main Header Time -->
                            </li>
                            <li class="d-none d-lg-flex">
                               <!-- Main Header Button -->
-                              <div class="main-header-btn ml-md-1">
+                              {{-- <div class="main-header-btn ml-md-1">
                                  <a href="#" class="btn">Pending Tasks</a>
-                              </div>
+                              </div> --}}
                               <!-- End Main Header Button -->
                            </li>
                            <li class="order-2 order-sm-0">
@@ -191,7 +191,7 @@
                               <div class="main-header-search">
                                  <form action="#" class="search-form">
                                     <div class="theme-input-group header-search">
-                                       <input type="text" class="theme-input-style" placeholder="Search Here">
+                                       <input type="text" class="theme-input-style" placeholder="What are you looking for?">
 
                                        <button type="submit"><img src="{{asset('backend/img/svg/search-icon.svg')}}" alt=""
                                              class="svg"></button>
@@ -203,9 +203,9 @@
                            <li>
                               <!-- Main Header Messages -->
                               <div class="main-header-message">
-                                 <a href="#" class="header-icon" data-toggle="dropdown">
+                                 {{-- <a href="#" class="header-icon" data-toggle="dropdown">
                                     <img src="{{asset('backend/img/svg/message-icon.svg')}}" alt="" class="svg">
-                                 </a>
+                                 </a> --}}
                                  <div class="dropdown-menu dropdown-menu-right">
                                     <!-- Dropdown Header -->
                                     <div class="dropdown-header d-flex align-items-center justify-content-between">
@@ -286,7 +286,7 @@
                               <!-- End Main Header Messages -->
                            </li>
                            <li>
-                              <!-- Main Header Notification -->
+                              {{-- <!-- Main Header Notification -->
                               <div class="main-header-notification">
                                  <a href="#" class="header-icon notification-icon" data-toggle="dropdown">
                                     <span class="count" data-bg-img="{{asset('backend/img/count-bg.png')}}">22</span>
@@ -348,7 +348,7 @@
                                     </div>
                                     <!-- End Dropdown Body -->
                                  </div>
-                              </div>
+                              </div> --}}
                               <!-- End Main Header Notification -->
                            </li>
                         </ul>
@@ -407,6 +407,9 @@
    <script src="{{asset('backend/plugins/apex/custom-apexcharts.js')}}"></script>
    <!-- ======= End BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
    @livewireScripts
+
+   {{ \TawkTo::widgetCode() }}
+   
 </body>
 
 </html>
