@@ -27,22 +27,22 @@ class AuthServiceProvider extends ServiceProvider
 
          // Admin 
          Gate::define('Admin', function($user) {
-            return $user->user_role=='admin'; 
+            return $user->role=='admin'; 
         });
 
          // Staff 
          Gate::define('Staff', function($user) {
-            return $user->user_role=='staff'; 
+            return $user->role=='staff'; 
         });
 
          // Partner 
          Gate::define('Partner', function($user) {
-            return $user->user_role=='partner'; 
+            return $user->role=='partner'; 
         });
 
          // Customer 
          Gate::define('Customer', function($user) {
-            return $user->user_role=='customer'; 
+            return $user->role=='customer'; 
         });
 
     }
