@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ProductCategoriesPivot extends Model
+class ProductCategoryPivot extends Model
 {
     use HasFactory;
 }

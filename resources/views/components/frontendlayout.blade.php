@@ -41,7 +41,7 @@
 	</div>
     @endif
 	<!-- ***** Preloader End ***** -->
-<!-- Header Start -->
+    @if(!Route::is(['landing']))<!-- Header Start -->
 <header class="main-nav-container box">
     <div class="container">
         <div class="row">
@@ -51,6 +51,8 @@
         </div>
     </div>
 </header>
+
+@endif
 <!-- Header End -->
 
 {{$slot}}
@@ -59,7 +61,7 @@
 
     
 
-@if(!Route::is(['login', 'register', 'password.request']))
+@if(!Route::is(['login', 'register', 'password.request', 'landing']))
     <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
@@ -108,7 +110,6 @@
 <!-- Footer End -->
 
 @endif
-
 
 <!-- jQuery -->
 <script src="{{asset('frontend/js/jquery-2.1.0.min.js')}}"></script>

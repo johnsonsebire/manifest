@@ -1,6 +1,7 @@
-<x-landingheader >
-	<title>Home &mdash; Manifest Multimedia </title> 
-</x-landingheader>
+<x-frontendlayout >
+ <x-slot name='title'>	
+	 Home &mdash; Manifest Multimedia 
+ </x-slot>
 
 <body class="body-gray">
 
@@ -127,4 +128,4 @@
 	</section>
 	
 
-	<x-landingfooter />
+</x-frontendlayout>

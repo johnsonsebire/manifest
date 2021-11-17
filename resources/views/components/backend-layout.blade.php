@@ -31,7 +31,14 @@
    <!-- ======= END BEGIN PAGE LEVEL PLUGINS STYLES ======= -->
 
    <!-- ======= MAIN STYLES ======= -->
+   {{-- @if(Auth::user()->settings()->mode=='dark')
+      <link rel="stylesheet" href="{{asset('backend/css/dark.css')}}">
+   @else
+      <link rel="stylesheet" href="{{asset('backend/css/style.css')}}">
+   @endif    --}}
+
    <link rel="stylesheet" href="{{asset('backend/css/style.css')}}">
+
    <!-- ======= END MAIN STYLES ======= -->
    @livewireStyles
 </head>

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\frontendController; 
+use App\Http\Controllers\Order; 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,16 +14,18 @@ use App\Http\Controllers\frontendController;
 */
 
 
-// Route::view('/', 'frontend.landing');
+Route::view('/landing', 'frontend.landing')->name('landing');
 Route::view('/', 'frontend.home')->name('home'); 
 Route::view('/culture', 'frontend.culture')->name('culture'); 
 Route::view('/culture', 'frontend.culture')->name('solutions'); 
 
-// Route::get('/', function () {
-//     return view('landing');
-// });
+Route::resource('/order', Order::class);
+
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+// Route::get('/settings', [settingsController::class, 'index'])->name('settings');

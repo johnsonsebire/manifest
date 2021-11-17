@@ -13,9 +13,10 @@ class CreateProductTypePivotsTable extends Migration
      */
     public function up()
     {
-        Schema::create('product_type_pivots', function (Blueprint $table) {
+        Schema::create('product_types_pivots', function (Blueprint $table) {
             $table->unsignedInteger('product_id');
             $table->unsignedInteger('type_id');
+            
             $table->foreign('product_id')
                     ->references('id')
                     ->on('products')
