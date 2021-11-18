@@ -371,17 +371,7 @@
 
       <!-- Main Wrapper -->
       <div class="main-wrapper">
-         <!-- Sidebar -->
-         <nav class="sidebar" data-trigger="scrollbar">
-            <!-- Sidebar Header -->
-            <div class="sidebar-header d-none d-lg-block">
-               <!-- Sidebar Toggle Pin Button -->
-               <div class="sidebar-toogle-pin">
-                  <i class="icofont-tack-pin"></i>
-               </div>
-               <!-- End Sidebar Toggle Pin Button -->
-            </div>
-            <!-- End Sidebar Header -->
+        
 
             <x-backend-sidebar />
 <!-- Main Content -->
@@ -410,8 +400,15 @@
    <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
 
    <!-- ======= BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
-   <script src="{{asset('backend/plugins/apex/apexcharts.min.js')}}"></script>
-   <script src="{{asset('backend/plugins/apex/custom-apexcharts.js')}}"></script>
+   <script src="{{asset('backend/plugins/apex/apexcharts.min.js')}}" async></script>
+   <script src="{{asset('backend/plugins/apex/custom-apexcharts.js')}}" async></script>
+
+   @if(Route::has('order'))
+   <script src="{{asset('backend/plugins/jquery-smartwizard/jquery.smartWizard.min.js')}}"></script>
+   <script src="{{asset('backened/plugins/jquery-smartwizard/custom-smartWizard.js')}}"></script>
+   <script src="{{asset('backend/plugins/jquery.steps/jquery.steps.min.js')}}"></script>
+   <script src="{{asset('backend/plugins/jquery.steps/custom-jquery-step.js')}}"></script>
+   @endif
    <!-- ======= End BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
    @livewireScripts
 

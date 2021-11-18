@@ -72,3 +72,80 @@ if(! function_exists('getProductDetails')) {
     }
 
 }
+
+if(!function_exists('domainsearch')){
+
+  function domainsearch($domain, $tld){
+
+    //Domain Extention 
+
+if (!is_null($tld)){
+//Check Domain Availability
+
+$rcpassword='NaGrRSvLtYzSGMBPbyHWMybHzvqzOOcJ'; 
+$rcuserid='668813';
+
+$domain.='.'.$tld;
+ 
+//$tld='com';
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "https://httpapi.com/api/domains/available.json?auth-userid=$rcuserid&api-key=$rcpassword&domain-name=$domain&tlds=$tld");
+curl_setopt($ch, CURLOPT_VERBOSE, 1);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$httpResponse = curl_exec($ch);
+
+//print_r($httpResponse);
+
+$response=json_decode($httpResponse);
+// dd($response);
+
+return "You've requested for the domain $domain $response";
+
+
+// switch ($jay->$domain->status)
+//  {
+//     case "regthroughus":
+        
+// 		echo '<p class="alert alert-danger"> Sorry the domain name <strong>'.$domain.'</strong> is already registered<p>
+		
+		
+// 		<hr />
+        
+//         <p> If you\'re the owner of this domain you can transfer it to us. <button type="submit" class="btn btn-primary mb-2">Transfer</button></p>
+		
+// 		';
+        
+// 		break;
+//     case "available":
+//         echo '<p class="alert alert-success"> Congratulations! The domain name <strong>'.$domain.'</strong> is '.$jay->$domain->status.' for registration.
+        
+//         <hr />
+        
+//         <p> Yay! You can proceed to register this domain! <button type="submit" class="btn btn-primary mb-2">Register</button></p>
+        
+//         '; 
+        
+// 		break;
+//     case "regthroughothers":
+//         echo '<p class="alert alert-danger">Oops this domain name <strong>'.$domain.'</strong> is already registered.</p> 
+        
+//         <hr />
+        
+//         <p> If you\'re the owner of this domain you can transfer it to us. <button type="submit" class="btn btn-primary mb-2">Transfer</button></p>  ';
+		
+//         break;
+    
+//     default:
+//        echo '<p class="alert alert-info"> Try using a supported TLD. We couldn\'t recognize the response from the server.</p>'; 
+// }
+
+
+};
+
+
+  }
+
+
+}

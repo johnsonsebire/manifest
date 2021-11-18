@@ -1,7 +1,7 @@
 <div>
     {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
-    <div class="col-12">
-        <div class="card mb-30">
+    <div class="col-md-12">
+        <div class="card">
             <div class="card-body pt-30">
                 <h4 class="font-20 ">Services</h4>
             </div>
