@@ -85,7 +85,7 @@ if (!is_null($tld)){
 $rcpassword='NaGrRSvLtYzSGMBPbyHWMybHzvqzOOcJ'; 
 $rcuserid='668813';
 
-$domain.='.'.$tld;
+
  
 //$tld='com';
 $ch = curl_init();
@@ -100,46 +100,45 @@ $httpResponse = curl_exec($ch);
 
 $response=json_decode($httpResponse);
 // dd($response);
+$domain.='.'.$tld;
+return "You've requested for the domain $domain";
 
-return "You've requested for the domain $domain $response";
-
-
-// switch ($jay->$domain->status)
-//  {
-//     case "regthroughus":
+switch ($response->$domain->status)
+ {
+    case "regthroughus":
         
-// 		echo '<p class="alert alert-danger"> Sorry the domain name <strong>'.$domain.'</strong> is already registered<p>
+		return '<p class="alert alert-danger"> Sorry the domain name <strong>'.$domain.'</strong> is already registered<p>
 		
 		
-// 		<hr />
+		<hr />
         
-//         <p> If you\'re the owner of this domain you can transfer it to us. <button type="submit" class="btn btn-primary mb-2">Transfer</button></p>
+        <p> If you\'re the owner of this domain you can transfer it to us. <button type="submit" class="btn btn-primary mb-2">Transfer</button></p>
 		
-// 		';
+		';
         
-// 		break;
-//     case "available":
-//         echo '<p class="alert alert-success"> Congratulations! The domain name <strong>'.$domain.'</strong> is '.$jay->$domain->status.' for registration.
+		break;
+    case "available":
+        return '<p class="alert alert-success"> Congratulations! The domain name <strong>'.$domain.'</strong> is '.$jay->$domain->status.' for registration.
         
-//         <hr />
+        <hr />
         
-//         <p> Yay! You can proceed to register this domain! <button type="submit" class="btn btn-primary mb-2">Register</button></p>
+        <p> Yay! You can proceed to register this domain! <button type="submit" class="btn btn-primary mb-2">Register</button></p>
         
-//         '; 
+        '; 
         
-// 		break;
-//     case "regthroughothers":
-//         echo '<p class="alert alert-danger">Oops this domain name <strong>'.$domain.'</strong> is already registered.</p> 
+		break;
+    case "regthroughothers":
+        return '<p class="alert alert-danger">Oops this domain name <strong>'.$domain.'</strong> is already registered.</p> 
         
-//         <hr />
+        <hr />
         
-//         <p> If you\'re the owner of this domain you can transfer it to us. <button type="submit" class="btn btn-primary mb-2">Transfer</button></p>  ';
+        <p> If you\'re the owner of this domain you can transfer it to us. <button type="submit" class="btn btn-primary mb-2">Transfer</button></p>';
 		
-//         break;
+        break;
     
-//     default:
-//        echo '<p class="alert alert-info"> Try using a supported TLD. We couldn\'t recognize the response from the server.</p>'; 
-// }
+    default:
+       return '<p class="alert alert-info"> Try using a supported TLD. We couldn\'t recognize the response from the server.</p>'; 
+}
 
 
 };
