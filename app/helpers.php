@@ -16,7 +16,7 @@ if (! function_exists('SMSnotify')){
                 "destinations":[{"to":"'.$destination.'"}],
                 "text":"'.$message.'"}]}',
             CURLOPT_HTTPHEADER => array(
-                'Authorization: App f584b3866283b93034ab857f1436cbe0-f281cf22-2662-4e2f-b6eb-56d94fbf99f0',
+                'Authorization: App 63de2ba7a4267a19ce768f254fe49ce5-b2f908e0-24f8-4ecd-8741-508b66379aca',
                 'Content-Type: application/json',
                 'Accept: application/json'
             ),
@@ -101,13 +101,14 @@ $httpResponse = curl_exec($ch);
 $response=json_decode($httpResponse);
 // dd($response);
 $domain.='.'.$tld;
-return "You've requested for the domain $domain";
+// return "You've requested for the domain $domain";
+if(isset($response->$domain->status)){
 
-switch ($response->$domain->status)
+    switch ($response->$domain->status)
  {
     case "regthroughus":
         
-		return '<p class="alert alert-danger"> Sorry the domain name <strong>'.$domain.'</strong> is already registered<p>
+		echo '<p class="alert alert-danger"> Sorry the domain name <strong>'.$domain.'</strong> is already registered<p>
 		
 		
 		<hr />
@@ -118,7 +119,7 @@ switch ($response->$domain->status)
         
 		break;
     case "available":
-        return '<p class="alert alert-success"> Congratulations! The domain name <strong>'.$domain.'</strong> is '.$jay->$domain->status.' for registration.
+        echo '<p class="alert alert-success"> Congratulations! The domain name <strong>'.$domain.'</strong> is '.$jay->$domain->status.' for registration.
         
         <hr />
         
@@ -128,7 +129,7 @@ switch ($response->$domain->status)
         
 		break;
     case "regthroughothers":
-        return '<p class="alert alert-danger">Oops this domain name <strong>'.$domain.'</strong> is already registered.</p> 
+        echo '<p class="alert alert-danger">Oops this domain name <strong>'.$domain.'</strong> is already registered.</p> 
         
         <hr />
         
@@ -137,11 +138,14 @@ switch ($response->$domain->status)
         break;
     
     default:
-       return '<p class="alert alert-info"> Try using a supported TLD. We couldn\'t recognize the response from the server.</p>'; 
+       echo '<p class="alert alert-info"> Try using a supported TLD. We couldn\'t recognize the response from the server.</p>'; 
 }
 
 
 };
+
+}
+
 
 
   }

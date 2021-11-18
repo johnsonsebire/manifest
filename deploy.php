@@ -35,7 +35,7 @@ host('18.119.116.103')
 task('notify', function(){
     
     // SEND SMS
-    $destination="233549539417"; 
+    $destination="233204179139"; 
     $message="Application Successfully Deployed for Manifest Multimedia"; 
 
     $response= SMSnotify($destination, $message); 
