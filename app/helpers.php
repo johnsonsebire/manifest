@@ -12,13 +12,15 @@ if (! function_exists('SMSnotify')){
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS =>'{"messages":[{"from":"ManifestGH",
+            CURLOPT_POSTFIELDS =>'{"messages":[{"from":'.ENV('INFOBIP_SENDER_NAME').',
                 "destinations":[{"to":"'.$destination.'"}],
                 "text":"'.$message.'"}]}',
             CURLOPT_HTTPHEADER => array(
-                'Authorization: App 63de2ba7a4267a19ce768f254fe49ce5-b2f908e0-24f8-4ecd-8741-508b66379aca',
+                
+                'Authorization: App'.ENV('INFOBIP_AUTHORIZATION'),
                 'Content-Type: application/json',
                 'Accept: application/json'
+                
             ),
         ));
         
@@ -82,12 +84,9 @@ if(!function_exists('domainsearch')){
 if (!is_null($tld)){
 //Check Domain Availability
 
-$rcpassword='NaGrRSvLtYzSGMBPbyHWMybHzvqzOOcJ'; 
-$rcuserid='668813';
-
-
+$rcpassword=ENV('RCPASSWORD'); 
+$rcuserid=ENV('RCUSERID');
  
-//$tld='com';
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://httpapi.com/api/domains/available.json?auth-userid=$rcuserid&api-key=$rcpassword&domain-name=$domain&tlds=$tld");
 curl_setopt($ch, CURLOPT_VERBOSE, 1);
