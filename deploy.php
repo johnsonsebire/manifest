@@ -32,17 +32,27 @@ host('18.119.116.103')
     
 // Tasks
 
+set('INFOBIP_SENDER', 'ManifestGH');
+set('INFOBIP_AUTHORIZATION', 'App 63de2ba7a4267a19ce768f254fe49ce5-b2f908e0-24f8-4ecd-8741-508b66379aca');
+
 task('notify', function(){
     
     // SEND SMS
     $destination="233204179139"; 
     $message="Application Successfully Deployed for Manifest Multimedia"; 
+    $sender=get('INFOBIP_SENDER'); 
+    $authorization=get('INFOBIP_AUTHORIZATION');
 
-    $response= SMSnotify($destination, $message); 
+
+    $response= SMSnotify($destination, $message, $sender, $authorization); 
     
     write('Sending SMS Notification');
     
     print_r($response);
+
+    
+
+   
     
     }); 
 

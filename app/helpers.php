@@ -1,8 +1,10 @@
 <?php 
+
+
 if (! function_exists('SMSnotify')){
-    function SMSnotify($destination, $message){
+     
+    function SMSnotify($destination, $message, $sender, $authorization){
         $curl = curl_init();
-        
         curl_setopt_array($curl, array(
             CURLOPT_URL => 'https://l4rr2.api.infobip.com/sms/2/text/advanced',
             CURLOPT_RETURNTRANSFER => true,
@@ -12,16 +14,16 @@ if (! function_exists('SMSnotify')){
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS =>'{"messages":[{"from":'.ENV('INFOBIP_SENDER_NAME').',
+            CURLOPT_POSTFIELDS =>'{"messages":
+                [{"from": "'.$sender.'",
                 "destinations":[{"to":"'.$destination.'"}],
                 "text":"'.$message.'"}]}',
             CURLOPT_HTTPHEADER => array(
-                
-                'Authorization: App'.ENV('INFOBIP_AUTHORIZATION'),
-                'Content-Type: application/json',
-                'Accept: application/json'
-                
-            ),
+                'Authorization:'."$authorization",
+                'Content-Type: application/json', 
+                'Accept: application/json', 
+            )    
+        
         ));
         
         $response = curl_exec($curl);
