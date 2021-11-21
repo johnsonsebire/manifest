@@ -372,14 +372,12 @@
       <!-- Main Wrapper -->
       <div class="main-wrapper">
         
-
-            <x-backend-sidebar />
-<!-- Main Content -->
-<div class="main-content">
-    
-    {{$slot}}
-</div>
-<!-- End Main Content -->
+         <x-backend-sidebar />
+         <!-- Main Content -->
+         <div class="main-content">
+            {{$slot}}
+         </div>
+         <!-- End Main Content -->
       </div>
       <!-- End Main Wrapper -->
 
@@ -395,13 +393,10 @@
    <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
    <script src="{{asset('backend/js/jquery.min.js')}}"></script>
    <script src="{{asset('backend/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-   {{-- <script src="{{asset('backend/js/script.js')}}" defer></script> --}}
    <script src="{{asset('backend/js/script.js')}}" defer></script>
    <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
 
-   <!-- ======= BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
-   <script src="{{asset('backend/plugins/apex/apexcharts.min.js')}}" async></script>
-   <script src="{{asset('backend/plugins/apex/custom-apexcharts.js')}}" async></script>
+  
 
    @if(Route::has('order'))
    <script src="{{asset('backend/plugins/jquery-smartwizard/jquery.smartWizard.min.js')}}"></script>
@@ -412,6 +407,158 @@
    <!-- ======= End BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
    @livewireScripts
 
+   @if(Route::has('dashboard')) 
+
+     
+
+   {{-- Load Dashboard Chart Data --}}
+   <script type="text/javascript" defer> 
+      $(function () {
+      'use strict';   
+
+      let invoicesCount=document.getElementById('invoices-count').textContent;
+
+            var area_options = {
+               chart: {
+                     type:"area",
+                     height: 112,
+                     sparkline: {
+                        enabled: true
+                     }
+               },
+               stroke: {
+                     curve: "smooth",
+                     width: 2
+               },
+               fill: {
+                     opacity: .05
+               },
+               series:[ {
+                     name: 'Invoices',
+                     data: [0,invoicesCount]
+               }
+               ],
+               yaxis: {
+                     min: 0
+               },
+               colors:["#E580FD"],
+               grid: {
+                     row: {
+                        colors: ['transparent', 'transparent'], opacity: .2
+                     },
+                     padding: {
+                        top: 5,
+                     },
+                     borderColor: 'transparent'
+               },
+               tooltip: {
+                     x: {
+                        format: 'dd/MM/yy HH:mm'
+                     },
+               }
+               }
+               var area_Chart = new ApexCharts( document.querySelector("#invoices-chart"), area_options );
+               area_Chart.render();
+//Chart 2 Data
+               let servicesCount=document.getElementById('services-count').textContent;
+
+var area_options = {
+   chart: {
+         type:"area",
+         height: 112,
+         sparkline: {
+            enabled: true
+         }
+   },
+   stroke: {
+         curve: "smooth",
+         width: 2
+   },
+   fill: {
+         opacity: .05
+   },
+   series:[ {
+         name: 'Services',
+         data: [0,servicesCount]
+   }
+   ],
+   yaxis: {
+         min: 0
+   },
+   colors:["#E580FD"],
+   grid: {
+         row: {
+            colors: ['transparent', 'transparent'], opacity: .2
+         },
+         padding: {
+            top: 5,
+         },
+         borderColor: 'transparent'
+   },
+   tooltip: {
+         x: {
+            format: 'dd/MM/yy HH:mm'
+         },
+   }
+   }
+   var area_Chart = new ApexCharts( document.querySelector("#services-chart"), area_options );
+   area_Chart.render();
+
+   //Tickets Chart
+   let pendingTickets=document.getElementById('pending-tickets').textContent;
+   let resolvedTickets=document.getElementById('resolved-tickets').textContent;
+   var area4_options = {
+        chart: {
+            type:"area",
+            height: 112,
+            sparkline: {
+                enabled: true
+            }
+        },
+        stroke: {
+            curve: "smooth",
+            width: 2
+        },
+        fill: {
+            opacity: .05
+        },
+        series: [{
+            name: 'Resolved',
+            data: [0, resolvedTickets]
+          }, {
+            name: 'Pending',
+            data: [0, pendingTickets]
+        }],
+        yaxis: {
+            min: 0
+        },
+        colors:["#09D1DE", "#E580FD"],
+        grid: {
+            row: {
+                colors: ['transparent', 'transparent'], opacity: .2
+            },
+            padding: {
+                top: 5,
+            },
+            borderColor: 'transparent'
+        },
+        tooltip: {
+            x: {
+                format: 'dd/MM/yy HH:mm'
+            },
+        }
+    }
+    var area4_Chart = new ApexCharts( document.querySelector("#tickets-chart"), area4_options);
+    area4_Chart.render();
+
+            });
+
+      </script>
+
+     <!-- ======= BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
+     <script src="{{asset('backend/plugins/apex/apexcharts.min.js')}}" defer></script>
+
+   @endif
    <script type="text/javascript" defer>
 
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

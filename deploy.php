@@ -48,11 +48,8 @@ task('notify', function(){
     
     write('Sending SMS Notification');
     
-    print_r($response);
+    // print_r($response);
 
-    
-
-   
     
     }); 
 

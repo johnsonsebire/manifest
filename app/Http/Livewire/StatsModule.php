@@ -8,6 +8,6 @@ class StatsModule extends Component
 {
     public function render()
     {
-        return view('livewire.stats-module');
+        return view('livewire.stats-module', ['invoices'=>3]);
     }
 }

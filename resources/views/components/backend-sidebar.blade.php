@@ -27,7 +27,7 @@
 			@csrf
 			
 			<a href="{{ route('logout') }}"  onclick="event.preventDefault();
-			this.closest('form').submit();">                     {{ __('Log Out') }}</a>
+			this.closest('form').submit();"> <span class="link-title"> {{ __('Log Out') }} </span></a>
 
 			</form>
 		</li> 

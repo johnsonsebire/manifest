@@ -1,9 +1,9 @@
 <div>
     {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
     <div class="col-md-12">
-        <div class="card">
+        <div class="card" style="width:97%">
             <div class="card-body pt-30">
-                <h4 class="font-20 ">Services</h4>
+                <h4 class="font-20">Services</h4>
             </div>
             <div class="table-responsive">
                 <!-- Invoice List Table -->
