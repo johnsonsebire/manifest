@@ -393,6 +393,7 @@
    <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
    <script src="{{asset('backend/js/jquery.min.js')}}"></script>
    <script src="{{asset('backend/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+   <script src="{{asset('backend/plugins/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
    <script src="{{asset('backend/js/script.js')}}" defer></script>
    <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
 

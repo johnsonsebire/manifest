@@ -4,15 +4,15 @@ return [
 
 /*
 |--------------------------------------------------------------------------
-| INFOBIP SMS API AUTHORIZATION
+| RESELLER CLUB API AUTHORIZATION
 |--------------------------------------------------------------------------
 |
 | 
 | 
 |
 */
-'authorization' => env('INFOBIP_AUTHORIZATION'),
-'sender_name' => env('INFOBIP_SENDER_NAME')
+'username' => env('RCUSERID'),
+'password' => env('RCPASSWORD')
 
 ];
 

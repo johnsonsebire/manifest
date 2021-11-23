@@ -1,5 +1,6 @@
 <div>
     {{-- Knowing others is intelligence; knowing yourself is true wisdom. --}}
+    {{domainsearch('johnsonsebire', 'com')}}
     <div class="row col-md-12">
          <div class="col-md-4">
             <!-- Card -->
