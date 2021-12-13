@@ -47,6 +47,11 @@
 
                 </div>
                 
+                Cat:
+                @foreach ($categories as $item)
+                   Categories: {{$item}}
+                @endforeach
+
                 <!-- End Invoice List Table -->
             </div>
         </div>

@@ -16,4 +16,12 @@ class Orders extends Model
     public function products() {
         return $this->hasMany(Products::class);
     }
+
+    public function categories() {
+        return $this->hasManyThrough(productCategory::class, Product::class, 'id', 'product_id');
+    }
+
+    public function productType() {
+        return $this->hasManyThrough(productType::class, Product::class);
+    }
 }

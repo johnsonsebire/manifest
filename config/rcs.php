@@ -11,8 +11,8 @@ return [
 | 
 |
 */
-'username' => env('RCUSERID'),
-'password' => env('RCPASSWORD')
+'username' => env('RCUSERID', ''),
+'password' => env('RCPASSWORD', ''), 
 
 ];
 

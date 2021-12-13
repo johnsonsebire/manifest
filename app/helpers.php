@@ -96,12 +96,10 @@ if(!function_exists('domainsearch')){
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $httpResponse = curl_exec($ch);
 
-   //print_r($httpResponse);
-
     $response=json_decode($httpResponse);
-    // dd($response);
+
     $domain.='.'.$tld;
-        // return "You've requested for the domain $domain";
+        
         if(isset($response->$domain->status)){
 
                         switch ($response->$domain->status)

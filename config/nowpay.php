@@ -1,10 +1,8 @@
 <?php 
 
-return [
-
 /*
 |--------------------------------------------------------------------------
-| INFOBIP SMS API AUTHORIZATION
+| NOW PAY CREDENTIALS
 |--------------------------------------------------------------------------
 |
 | 
@@ -12,11 +10,9 @@ return [
 |
 */
 
-'authorization' => env('INFOBIP_AUTHORIZATION'),
-'sender_name' => env('INFOBIP_SENDER_NAME')
+return [
+'api_key' => env('MANIFEST_NOWPAY_API_KEY'), 
+'secret' => env('MANIFEST_NOWPAY_SECRET'), 
+]
 
-];
-
-
-
-?>
+?> 

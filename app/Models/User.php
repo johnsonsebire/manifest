@@ -75,6 +75,14 @@ class User extends Authenticatable
     //     'id',
     //     );
     // }
+    
+    public function productCategory() {
+        return $this->hasManyThrough(productCategory::class, Orders::class, 'user_id', 'product_id');
+    }
+
+    public function productType() {
+        return $this->hasManyThrough(productType::class, Product::class);
+    }
 
     
 }

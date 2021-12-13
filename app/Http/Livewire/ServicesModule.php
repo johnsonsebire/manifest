@@ -6,6 +6,7 @@ use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\User; 
 use App\Models\Products; 
+use App\Models\Orders;
 use Auth; 
 
 class ServicesModule extends Component
@@ -18,8 +19,18 @@ class ServicesModule extends Component
     {
         $this->user_id=Auth::user()->id; 
 
-        $services=User::find($this->user_id)->orders();
+        $user=User::find($this->user_id); 
+
+        // $services=User::find($this->user_id)->orders();
+        $services=$user->orders();
+
+        $categories=Orders::find(1)->categories;
+
+        // dd($categories);
     
-        return view('livewire.services-module',['services'=>$services->paginate(5)]);
+        return view('livewire.services-module',['services'=>$services->paginate(5), 'categories'=>$categories]);
     }
+
+    
+
 }
