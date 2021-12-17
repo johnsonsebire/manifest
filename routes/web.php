@@ -21,6 +21,10 @@ Route::view('/culture', 'frontend.culture')->name('solutions');
 
 Route::resource('/order', Order::class);
 
+Route::get('/whatsapp', function(){
+    return view('frontend.whatsapp');
+});
+
 
 
 
