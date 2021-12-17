@@ -47,10 +47,10 @@
 
                 </div>
                 
-                Cat:
+                {{-- Cat:
                 @foreach ($categories as $item)
                    Categories: {{$item}}
-                @endforeach
+                @endforeach --}}
 
                 <!-- End Invoice List Table -->
             </div>

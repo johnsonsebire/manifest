@@ -24,11 +24,11 @@ class ServicesModule extends Component
         // $services=User::find($this->user_id)->orders();
         $services=$user->orders();
 
-        $categories=Orders::find(1)->categories;
+        // $categories=Orders::find(1)->categories;
 
         // dd($categories);
     
-        return view('livewire.services-module',['services'=>$services->paginate(5), 'categories'=>$categories]);
+        return view('livewire.services-module',['services'=>$services->paginate(5)]);
     }
 
     
