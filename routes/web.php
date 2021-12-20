@@ -20,15 +20,15 @@ Route::view('/culture', 'frontend.culture')->name('culture');
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
 
 //Under Construction
-Route::view('/retail', 'frontend.culture')->name('retail'); 
-Route::view('/healthcare', 'frontend.culture')->name('healthcare'); 
-Route::view('/blockchain', 'frontend.culture')->name('blockchain'); 
-Route::view('/education', 'frontend.culture')->name('education'); 
-Route::view('/charity', 'frontend.culture')->name('charity'); 
-Route::view('/government', 'frontend.culture')->name('government'); 
-Route::view('/technology', 'frontend.culture')->name('technology'); 
-Route::view('/hr', 'frontend.culture')->name('hr'); 
-Route::view('/domains', 'frontend.culture')->name('domains'); 
+// Route::view('/retail', 'frontend.culture')->name('retail'); 
+// Route::view('/healthcare', 'frontend.culture')->name('healthcare'); 
+// Route::view('/blockchain', 'frontend.culture')->name('blockchain'); 
+// Route::view('/education', 'frontend.culture')->name('education'); 
+// Route::view('/charity', 'frontend.culture')->name('charity'); 
+// Route::view('/government', 'frontend.culture')->name('government'); 
+// Route::view('/technology', 'frontend.culture')->name('technology'); 
+// Route::view('/hr', 'frontend.culture')->name('hr'); 
+// Route::view('/domains', 'frontend.culture')->name('domains'); 
 
 
 
