@@ -48,7 +48,8 @@ if(!function_exists('coinprice')){
 
             // dd($response);
             $response=json_decode($response); 
-            return '$'.$response->estimated_amount.' USD';
+            $rounded=round($response->estimated_amount,2);
+            return '$'.$rounded.' USD';
 
         } catch (\Throwable $th) {
             //throw $th;
