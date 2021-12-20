@@ -1,5 +1,68 @@
 <?php 
 
+if(!function_exists('coinprice')){
+
+    function coinprice($currency){
+
+        if (isset($currency)){
+            switch ($currency) {
+                case 'btc':
+                    $from="btc"; 
+                    $to="usd"; 
+                    $amount=1; 
+                    
+                    # code...
+                    break;
+                
+                default:
+                    
+                    return "Invalid Currency Value"; 
+
+                    break;
+            }
+        }
+
+        try {
+
+            $apikey=config('nowpay.api_key');
+            //code...
+            $curl = curl_init();
+
+            curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://api.nowpayments.io/v1/estimate?amount=$amount&currency_from=$from&currency_to=$to",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_HTTPHEADER => array(
+                "x-api-key: $apikey"
+            ),
+            ));
+    
+            $response = curl_exec($curl);
+    
+            curl_close($curl);
+
+            // dd($response);
+            $response=json_decode($response); 
+            return '$'.$response->estimated_amount.' USD';
+
+        } catch (\Throwable $th) {
+            //throw $th;
+            return $th; 
+        }
+
+       
+        
+    }
+
+
+}
+
+
 if (! function_exists('SMSnotify')){
      
     function SMSnotify($destination, $message, $sender, $authorization){

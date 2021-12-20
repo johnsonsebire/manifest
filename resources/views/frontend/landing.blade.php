@@ -35,7 +35,7 @@
 							<span>A new Look is Loading.</span>
 							<span class="pull-right version"></span>
 						</div> --}}
-						<h1 class="m-b-10">Welcome to <br /> Manifest Multimedia</h1>
+						<h1 class="m-b-10">Welcome to <br /> Manifest Multimedia </h1>
 						<p class="m-b-40">For 7+ years we've empowered <span class="text-color-primary">everyone</span> within our reach with 
 							the best tools to leverage technology to enhance their lives and to grow their businesses. Now it's time for us to give ourselves
 						a refreshing new look with more products to help you win. <br /><span class="text-color-primary"> Please check back soon! </span></p>

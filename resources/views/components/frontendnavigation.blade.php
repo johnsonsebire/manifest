@@ -33,62 +33,61 @@
                                     <span class="sub-title text-uppercase">Industry</span>
                                     <ul class="list-unstyled">
                                         @if (Route::has('retail'))
-                                            <li><a href="#">Retail</a></li>
+                                            <li><a href="{{route('retail')}}">Retail</a></li>
                                         @endif
                                         @if (Route::has('healthcare'))
-                                            <li><a href="#">Healthcare</a></li>
+                                            <li><a href="{{route('healthcare')}}">Healthcare</a></li>
                                         @endif
                                         @if (Route::has('blockchain'))
-                                            <li><a href="#">Blockchain</a></li>
+                                            <li><a href="{{route('blockchain')}}">Blockchain</a></li>
                                         @endif
                                         @if (Route::has('education'))
-                                           
-                                            <li><a href="#">Education</a></li>
+                                            <li><a href="{{route('education')}}">Education</a></li>
                                         @endif
                                         @if (Route::has('charity'))
-                                            <li><a href="#">Charity</a></li>
+                                            <li><a href="{{route('charity')}}">Charity</a></li>
                                         @endif
                                         @if (Route::has('government'))
-                                            <li><a href="#">Government</a></li>
+                                            <li><a href="{{route('government')}}">Government</a></li>
                                         @endif
                                         @if (Route::has('technology'))
-                                            <li><a href="#">Technology</a></li>
+                                            <li><a href="{{route('technology')}}">Technology</a></li>
                                         @endif
                                         @if (Route::has('hr'))
-                                            <li><a href="#">Human Resources</a></li>
+                                            <li><a href="{{route('hr')}}">Human Resources</a></li>
                                         @endif
                                     </ul>
                                 </div>
                                 @endif
                                 @if (Route::has('domains'))
-                                    <li><a href="#">Human Resources</a></li>
+                                 
                             
                                     <div class="col-lg-4">
                                         <span class="sub-title text-uppercase">Web Services</span>
                                         <ul class="list-unstyled m-b-20">
                                             @if(Route::has('domains'))
-                                                <li><a href="#">Domain Sales</a></li>
+                                                <li><a href="{{route('domains')}}">Domain Sales</a></li>
                                             @endif
                                             @if(Route::has('shared-hosting'))
-                                                <li><a href="#">Shared Hosting</a></li>
+                                                <li><a href="{{route('shared-hosting')}}">Shared Hosting</a></li>
                                             @endif 
                                             @if(Route::has('wordpress-hosting'))
-                                                <li><a href="#">WordPress Hosting</a></li>
+                                                <li><a href="{{route('wordpress-hosting')}}">WordPress Hosting</a></li>
                                             @endif
                                             @if(Route::has('vps'))
-                                                <li><a href="#">VPS</a></li>
+                                                <li><a href="{{route('vps')}}">VPS</a></li>
                                             @endif
                                             @if(Route::has('dedicated-servers'))
-                                                <li><a href="#">Dedicated Servers</a></li>
+                                                <li><a href="{{route('dedicated-servers')}}">Dedicated Servers</a></li>
                                             @endif
                                             @if(Route::has('managed-hosting'))
-                                                <li><a href="#">Managed Hosting</a></li>
+                                                <li><a href="{{route('managed-hosting')}}">Managed Hosting</a></li>
                                             @endif
                                             @if(Route::has('ssl-certificates'))
-                                            <li><a href="#">SSL Certificates</a></li>
+                                            <li><a href="{{route('ssl-certificates')}}">SSL Certificates</a></li>
                                             @endif
                                             @if(Route::has('site-security'))
-                                            <li><a href="#">Site Security</a></li>
+                                            <li><a href="{{route('site-security')}}">Site Security</a></li>
                                             @endif
                                         </ul>
                                     </div>
@@ -98,25 +97,25 @@
                                         <span class="sub-title text-uppercase">Software</span>
                                         <ul class="list-unstyled m-b-20">
                                             @if(Route::has('smart-account'))
-                                                <li><a href="#">SmartAccounting</a></li>
+                                                <li><a href="{{route('smart-account')}}">SmartAccounting</a></li>
                                             @endif
                                             @if(Route::has('smart-pos'))
-                                                <li><a href="#">SmartPOS</a></li>
+                                                <li><a href="{{route('smart-pos')}}">SmartPOS</a></li>
                                             @endif
                                             @if(Route::has('smart-lms'))
-                                                <li><a href="#">SmartLMS</a></li>
+                                                <li><a href="{{route('smart-lms')}}">SmartLMS</a></li>
                                             @endif
                                         </ul>
                                         <span class="sub-title text-uppercase">Other</span>
                                         <ul class="list-unstyled m-b-20">
                                             @if(Route::has('zoho-business'))
-                                                <li><a href="#">Zoho Business</a></li>
+                                                <li><a href="{{route('zoho-business')}}">Zoho Business</a></li>
                                             @endif
                                             @if(Route::has('office-365'))
-                                                <li><a href="#">Office 365</a></li>
+                                                <li><a href="{{route('office-365')}}">Office 365</a></li>
                                             @endif
                                             @if(Route::has('avast-security'))
-                                                <li><a href="#">Avast Security</a></li>
+                                                <li><a href="{{route('avast-security')}}">Avast Security</a></li>
                                             @endif
                                         </ul>
                                     </div>
