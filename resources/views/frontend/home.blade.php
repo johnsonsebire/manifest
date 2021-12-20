@@ -31,6 +31,5 @@
 	<a href="https://www.trustpilot.com/review/manifestghana.com" target="_blank" rel="noopener">Trustpilot</a>
   </div>
 
-  {{coinprice('btc')}}
   <!-- End TrustBox widget -->
 </x-frontendlayout>
