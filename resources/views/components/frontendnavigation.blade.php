@@ -60,8 +60,6 @@
                                 </div>
                                 @endif
                                 @if (Route::has('domains'))
-                                 
-                            
                                     <div class="col-lg-4">
                                         <span class="sub-title text-uppercase">Web Services</span>
                                         <ul class="list-unstyled m-b-20">
@@ -96,8 +94,8 @@
                                     <div class="col-lg-4">
                                         <span class="sub-title text-uppercase">Software</span>
                                         <ul class="list-unstyled m-b-20">
-                                            @if(Route::has('smart-account'))
-                                                <li><a href="{{route('smart-account')}}">SmartAccounting</a></li>
+                                            @if(Route::has('smart-accounting'))
+                                                <li><a href="{{route('smart-accounting')}}">SmartAccounting</a></li>
                                             @endif
                                             @if(Route::has('smart-pos'))
                                                 <li><a href="{{route('smart-pos')}}">SmartPOS</a></li>

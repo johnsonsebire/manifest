@@ -20,3 +20,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::get('coinprice_btc', [coinPriceApi::class, 'btc']); 
+
+Route::prefix('v1')->group(function(){
+
+    Route::get('coinprice_btc', [coinPriceApi::class, 'btc']);
+
+});

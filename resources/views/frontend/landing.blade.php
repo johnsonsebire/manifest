@@ -5,15 +5,6 @@
 
 <body class="body-gray">
 
-
-	<!-- ***** Preloader Start ***** -->
-	<div id="preloader">
-		<div id="loader" class="spinner">
-			<div id="shadow"></div>
-			<div id="box"></div>
-		</div>
-	</div>
-
     
 	<!-- Welcome Start -->
 	<section class="welcome-flow d-flex align-items-center">

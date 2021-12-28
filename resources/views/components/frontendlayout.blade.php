@@ -28,12 +28,14 @@
 <!-- TrustBox script -->
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <!-- End TrustBox script -->
-
+@livewireStyles
 </head>
 
 
-<body>
-    @if(request()->is("home"))
+<body 
+@if(Route::is('build-website')) class="body-grey"@endif>
+   
+    @if(Route::is(['home']))
 	<!-- ***** Preloader Start ***** -->
 	<div id="preloader">
 		<div id="loader" class="spinner">
@@ -43,7 +45,7 @@
 	</div>
     @endif
 	<!-- ***** Preloader End ***** -->
-    @if(!Route::is(['landing']))<!-- Header Start -->
+    @if(!Route::is(['landing', 'build-website', 'build-app']))<!-- Header Start -->
 <header class="main-nav-container box">
     <div class="container">
         <div class="row">
@@ -63,7 +65,7 @@
 
     
 
-@if(!Route::is(['login', 'register', 'password.request', 'landing']))
+@if(!Route::is(['login', 'register', 'password.request', 'landing', 'build-app', 'build-website']))
     <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
@@ -148,6 +150,6 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
-
+@livewireScripts
 </body>
 </html>

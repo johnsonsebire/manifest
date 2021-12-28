@@ -146,6 +146,13 @@ if(!function_exists('domainsearch')){
 
     //Domain Extention 
 
+    if (isset($domain) && $tld==null) {
+        $extract=explode('.',$domain);
+
+        $domain=$extract[0];
+        $tld=$extract[1];
+    }
+
     if (!is_null($tld)){
     //Check Domain Availability
 
