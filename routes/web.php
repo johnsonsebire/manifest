@@ -18,6 +18,7 @@ Route::view('/landing', 'frontend.landing')->name('landing');
 Route::view('/', 'frontend.home')->name('home'); 
 Route::view('/culture', 'frontend.culture')->name('culture'); 
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
+Route::view('/webinar', 'frontend.webinar')->name('webinar'); 
 
 //Pages Under Construction
 
@@ -53,8 +54,8 @@ Route::view('/solutions', 'frontend.culture')->name('solutions');
 // Route::view('/avast-security', 'frontend.culture')->name('avast-security'); 
 
 #Onboarding
-// Route::view('/build-website', 'frontend.build.website')->name('build-website'); 
-// Route::view('/build-app', 'frontend.build.app')->name('build-app'); 
+Route::view('/build-website', 'frontend.build.website')->name('build-website'); 
+Route::view('/build-app', 'frontend.build.app')->name('build-app'); 
 
 
 Route::resource('/order', Order::class);
