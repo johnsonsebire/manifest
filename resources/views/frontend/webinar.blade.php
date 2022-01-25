@@ -90,8 +90,10 @@
 							</div>
 						</div>
 					</div>
-					
-				<a href="https://forms.zoho.com/manifestmultimedia/form/Signup" class="button button-primary transition-3d-hover">Save Your Spot</a>
+					<h1> Save Your Spot </h1> 
+					<h3> Don't Miss Out On this Webniar.  <br /> <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
+					<br /> <br />
+					<a href="https://forms.zoho.com/manifestmultimedia/form/Signup" class="button button-primary transition-3d-hover">Save Your Spot</a>
 		
 				</div>
 				<div class="col-lg-4">
