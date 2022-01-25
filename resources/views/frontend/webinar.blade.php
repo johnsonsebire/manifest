@@ -94,7 +94,7 @@
 					</div>
 					<br /> <br /> 
 					<h1> Save Your Spot </h1> 
-					<h3> Don't Miss Out On this Webniar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
+					<h3> Don't Miss Out On this Webinar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
 					<br />
 					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
 		
