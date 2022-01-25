@@ -29,7 +29,7 @@
 					<a  class="box overflow-hidden rounded imgfix-animate d-block m-b-30 featuredvid">
 						
 						<video controls autoplay loop id="vid" width="100%">
-							<source src="{{asset('frontend/videos/webinar/featured.mp4')}}" alt="Webinar Video" type="video/mp4">
+							<source src="{{asset('frontend/videos/webinar/webinar.mp4')}}" alt="Webinar Video" type="video/mp4">
 							Your browser does not support this video format. 
 						</video>
 						{{-- <div class="position-absolute rounded box left-20 right-20 bottom-20 p-20 text-center">
@@ -96,7 +96,7 @@
 					<h1> Save Your Spot </h1> 
 					<h3> Don't Miss Out On this Webniar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
 					<br />
-					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot</a>
+					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
 		
 				</div>
 
