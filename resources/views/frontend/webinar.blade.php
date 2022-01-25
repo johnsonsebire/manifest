@@ -62,7 +62,7 @@
 								<div class="icon">
 									<i class="fa fa-check"></i>
 								</div>
-								<p>Intro to Landing Pages</p>
+								<p>Landing Page Overview</p>
 							</div>
 						</div>
 						<div class="col-md-6">
