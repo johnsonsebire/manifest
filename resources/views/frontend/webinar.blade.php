@@ -9,7 +9,7 @@
 			<div class="offset-lg-3 col-lg-6">
 				<h1 class="text-white m-b-10"><span style="font-size:14px"> FREE WEBINAR | FRIDAY 28TH JANUARY 2022 | 10 AM</span> <br />Convert More Prospects into Buyers/Hot Leads</h1>
 				<p class="text-white m-b-40">How to Create a Highly Converting Landing Page</p>
-				<a href="https://forms.zoho.com/manifestmultimedia/form/Signup" class="button button-primary transition-3d-hover">Register</a>
+				<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Register</a>
 			</div>
 		</div>
 	</div>
@@ -94,7 +94,7 @@
 					<h1> Save Your Spot </h1> 
 					<h3> Don't Miss Out On this Webniar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
 					<br />
-					<a href="https://forms.zoho.com/manifestmultimedia/form/Signup" class="button button-primary transition-3d-hover">Save Your Spot</a>
+					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot</a>
 		
 				</div>
 				<div class="col-lg-4">
@@ -111,4 +111,6 @@
 		</div>
 	</section>
 	
+	
+
 </x-frontendlayout>
