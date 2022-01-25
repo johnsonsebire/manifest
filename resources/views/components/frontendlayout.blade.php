@@ -34,6 +34,16 @@
 
 <body 
 @if(Route::is('build-website')) class="body-grey"@endif>
+
+<style>
+    @media only screen and (max-width 736px){
+        a .featuredvid, body > section:nth-child(3) > div > div > div > a{
+            height:300px !important;
+        }
+
+        
+    }
+</style>
    
     @if(Route::is(['home']))
 	<!-- ***** Preloader Start ***** -->

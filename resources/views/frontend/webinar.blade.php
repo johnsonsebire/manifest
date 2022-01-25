@@ -19,12 +19,14 @@
 </section>
 <!-- Welcome End -->
 	<!-- Page Content Start -->
+
 	<section class="m-t-n100 position-relative p-b-90 z-i-2" style="margin-top:-200px !important">
 		<div class="container">
 			<div class="row">
 				<!-- Item Start -->
-				<div class="col-lg-12 col-md-6" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-					<a  class="box overflow-hidden rounded imgfix-animate h-580 d-block m-b-30">
+				<div class="featuredvid col-lg-12 col-md-6" 
+				data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+					<a  class="box overflow-hidden rounded imgfix-animate d-block m-b-30 featuredvid">
 						
 						<video controls autoplay loop id="vid" width="100%">
 							<source src="{{asset('frontend/videos/webinar/featured.mp4')}}" alt="Webinar Video" type="video/mp4">
@@ -43,9 +45,9 @@
 	<section class="m-t-n100 position-relative p-b-90 z-i-2" >
 		<div class="container">
 
-			<div class="d-flex align-items-center">
-	
-				<div class="offset-lg-1 col-lg-8">
+			<div class="row d-flex align-items-center">
+	<!-- Left column start -->
+				<div class="col-lg-8">
 					<div class="header-badge m-b-15">Free Webinar</div>
 					<h2 class="m-b-10">Webinar Details</h2>
 					<p class="m-b-40">Turning your prospects into buyers is how you make money. There are different ways to achieve this and it will be different for every business type. 
@@ -97,7 +99,9 @@
 					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot</a>
 		
 				</div>
-				<div class="col-lg-4">
+
+				<!-- right column start -->
+				<div class="col-lg-4 p-t-30">
 					<img src="{{asset('frontend/images/webinar/featuredpresenter.png')}}" width="40%" heigth="40%" alt="Presenter"> 
 					<br />
 					<h3> Presenter: </h3>
