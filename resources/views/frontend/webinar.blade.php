@@ -3,7 +3,7 @@
 		Webinar &mdash; Manifest Multimedia 
 	</x-slot>
 <!-- Welcome Start -->
-<section class="p-t-160 p-b-240 bg-dark position-relative z-i-1" id="noparticle-buble">
+<section class="p-t-60 p-b-240 bg-dark position-relative z-i-1" id="noparticle-buble">
 	<div class="container position-relative z-i-2">
 		<div class="row text-center">
 			<div class="offset-lg-3 col-lg-6">
@@ -92,7 +92,9 @@
 							</div>
 						</div>
 					</div>
-					<br /> <br /> 
+					<br /> 
+					<hr /> 
+					<br /> 
 					<h1> Save Your Spot </h1> 
 					<h3> Don't Miss Out On this Webinar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
 					<br />
