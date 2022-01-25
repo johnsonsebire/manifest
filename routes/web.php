@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Order; 
+use RealRashid\SweetAlert\Facades\Alert;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -73,6 +75,8 @@ Route::get('/whatsapp', function(){
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    toast('Success Toast','error')->autoClose(3000);
+
     return view('dashboard');
 })->name('dashboard');
 

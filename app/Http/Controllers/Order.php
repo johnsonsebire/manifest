@@ -13,7 +13,9 @@ class Order extends Controller
      */
     public function index()
     {
+
         return view('backend.orders.show');
+    
     }
 
     /**

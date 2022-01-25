@@ -4,6 +4,13 @@
             <x-jet-authentication-card-logo />
         </x-slot>
 
+        @if (session('error'))
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+        <span class="font-bold">{{ __('Oops!') }}</span>
+        <span>{{ session('error') }}</span>
+    </div>
+@endif
+
         <x-jet-validation-errors class="mb-4" />
 
         @if (session('status'))

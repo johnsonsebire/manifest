@@ -573,6 +573,9 @@ var area_options = {
       })();
       </script>
       <!--End of Tawk.to Script-->
-</body>
+
+      @include('sweetalert::alert')
+
+   </body>
 
 </html>

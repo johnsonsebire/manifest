@@ -45,7 +45,7 @@
 	</div>
     @endif
 	<!-- ***** Preloader End ***** -->
-    @if(!Route::is(['landing', 'build-website', 'build-app']))<!-- Header Start -->
+    @if(!Route::is(['landing', 'webinar', 'build-website', 'build-app']))<!-- Header Start -->
 <header class="main-nav-container box">
     <div class="container">
         <div class="row">
@@ -65,7 +65,7 @@
 
     
 
-@if(!Route::is(['login', 'register', 'password.request', 'landing', 'build-app', 'build-website']))
+@if(!Route::is(['login', 'register', 'password.request', 'webinar', 'landing', 'build-app', 'build-website']))
     <!-- Footer Start -->
 <footer class="footer p-t-60">
     <div class="container">
@@ -149,7 +149,14 @@
     s0.parentNode.insertBefore(s1,s0);
     })();
     </script>
+    <script>
+         setTimeout(function(){
+     document.getElementById('vid').play();
+ },1000);
+		document.getElementById('vid').play();
+	</script>
     <!--End of Tawk.to Script-->
 @livewireScripts
+@include('sweetalert::alert')
 </body>
 </html>
