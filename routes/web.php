@@ -56,8 +56,8 @@ Route::view('/webinar', 'frontend.webinar')->name('webinar');
 // Route::view('/avast-security', 'frontend.culture')->name('avast-security'); 
 
 #Onboarding
-Route::view('/build-website', 'frontend.build.website')->name('build-website'); 
-Route::view('/build-app', 'frontend.build.app')->name('build-app'); 
+// Route::view('/build-website', 'frontend.build.website')->name('build-website'); 
+// Route::view('/build-app', 'frontend.build.app')->name('build-app'); 
 
 
 Route::resource('/order', Order::class);
