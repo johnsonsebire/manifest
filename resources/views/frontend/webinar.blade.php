@@ -9,7 +9,7 @@
 			<div class="offset-lg-3 col-lg-6">
 				<h1 class="text-white m-b-10"><span style="font-size:14px"> FREE WEBINAR | FRIDAY 28TH JANUARY 2022 | 10 AM</span> <br />Convert More Prospects into Buyers/Hot Leads</h1>
 				<p class="text-white m-b-40">How to Create a Highly Converting Landing Page</p>
-				<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Register</a>
+				{{-- <a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Register</a> --}}
 			</div>
 		</div>
 	</div>
@@ -92,7 +92,7 @@
 							</div>
 						</div>
 						
-						<a style="margin-top:15px" href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
+						{{-- <a style="margin-top:15px" href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a> --}}
 
 					</div>
 					<br /> 
@@ -129,7 +129,7 @@
 					
 
 				</div>
-
+<!--
 				<div class="col-lg-12 p-t-30 text-center">
 					<h1 style="color:red"> Save Your Spot Now</h1> 
 					<h3> Spots are filling up real fast! <br /> Don't miss this webinar.  <br />
@@ -137,6 +137,16 @@
 					</h3>
 					<br />
 					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
+		
+				</div>
+			-->			
+				<div class="col-lg-12 p-t-30 text-center">
+					<h1 style="color:red"> Registration Closed!</h1> 
+					<h3> Sorry, you can no longer register for this event. <br > Registration for this Webinar Ended at 5PM GMT. <br />
+						{{-- <span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span>  --}}
+					</h3>
+					<br />
+					{{-- <a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a> --}}
 		
 				</div>
 				<!-- right column start -->
