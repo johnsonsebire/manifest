@@ -91,18 +91,23 @@
 								<p>Increase Revenue</p>
 							</div>
 						</div>
+						
+						<a style="margin-top:15px" href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
+
 					</div>
 					<br /> 
-					<hr /> 
-					<br /> 
-					<h1> Save Your Spot </h1> 
+					{{-- <hr />  --}}
+					
+					
+
+					
+
+					{{-- <h1> Save Your Spot </h1> 
 					<h3> Don't Miss Out On this Webinar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
 					<br />
-					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
+					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a> --}}
 		
 				</div>
-
-				<!-- right column start -->
 				<div class="col-lg-4 p-t-30">
 					<img src="{{asset('frontend/images/webinar/featuredpresenter.png')}}" width="40%" heigth="40%" alt="Presenter"> 
 					<br />
@@ -113,6 +118,26 @@
 					<p> <a href="https://www.linkedin.com/in/johnsonsebire/"> LinkedIn </a></p> 
 					<p> <a href="https://johnsonsebire.com"> Website </a></p> 
 				</div>
+				<div class="col-lg-12 p-t-30">
+					<hr />
+					<br /> 
+					<h1 class="text-center"> Real Reviews from Real Customers </h1> 
+					<br />
+					<script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script> <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="8" data-expandifr="true" data-height="auto" data-clutchcompany-id="1898916"></div>
+				<br /> 
+				<hr />
+					<h1> Save Your Spot </h1> 
+					<h3> Don't Miss Out On this Webinar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
+					<br />
+					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
+		
+
+				</div>
+				<!-- right column start -->
+				
+
+				
+				
 			</div>
 		</div>
 	</section>
