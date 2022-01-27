@@ -108,7 +108,7 @@
 					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a> --}}
 		
 				</div>
-				<div class="col-lg-4 p-t-30">
+				<div class="col-lg-4 p-t-40">
 					<img src="{{asset('frontend/images/webinar/featuredpresenter.png')}}" width="40%" heigth="40%" alt="Presenter"> 
 					<br />
 					<h3> Presenter: </h3>
@@ -126,16 +126,20 @@
 					<script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script> <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="8" data-expandifr="true" data-height="auto" data-clutchcompany-id="1898916"></div>
 				<br /> 
 				<hr />
-					<h1> Save Your Spot </h1> 
-					<h3> Don't Miss Out On this Webinar.  <br /><span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span> </h3>
+					
+
+				</div>
+
+				<div class="col-lg-12 p-t-30 text-center">
+					<h1 style="color:red"> Save Your Spot Now</h1> 
+					<h3> Spots are filling up real fast! <br /> Don't miss this webinar.  <br />
+						{{-- <span style="color:red; font-size:22px"> Limited Seats available. Save your Spot Now! </span>  --}}
+					</h3>
 					<br />
 					<a href="https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI" class="button button-primary transition-3d-hover">Save Your Spot Now</a>
 		
-
 				</div>
 				<!-- right column start -->
-				
-
 				
 				
 			</div>
