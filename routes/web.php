@@ -22,9 +22,8 @@ Route::view('/culture', 'frontend.culture')->name('culture');
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
 // Route::view('/webinar', 'frontend.webinar')->name('webinar'); 
 
-
 Route::get('/webinar', function(){
-    return redirect()->away('https://forms.zohopublic.com/manifestmultimedia/form/Signup/formperma/POol48Os_8I42CPfJs-S-SHe3eJk4i6mYveXYoeZJQI');
+    return redirect()->away('https://zc.vg/9x8MK');
 
 }); 
 
