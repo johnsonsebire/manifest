@@ -56,8 +56,8 @@
       <header class="header white-bg fixed-top d-flex align-content-center flex-wrap">
          <!-- Logo -->
          <div class="logo">
-            <a href="{{ route('dashboard') }}" class="default-logo"><img src="{{asset('images/favicon.png')}}" alt="Logo"></a>
-            <a href="{{ route('dashboard') }}" class="mobile-logo"><img src="{{asset('images/favicon.png')}}" alt="Logo"></a>
+            <a href="{{ route('dashboard') }}" class="default-logo"><img src="{{asset('images/favicon.png')}}" alt="Logo" width="80px" height="80px"> <span style="font-family:SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace; font-size:30px; font-family:bold;color:black">  </span> </a> 
+            <a href="{{ route('dashboard') }}" class="mobile-logo"><img src="{{asset('images/favicon.png')}}" alt="Logo" width="100px" height="100px"></a>
          </div>
          <!-- End Logo -->
 
@@ -80,14 +80,14 @@
                               <div class="user-profile d-xl-flex align-items-center d-none">
                                  <!-- User Avatar -->
                                  <div class="user-avatar">
-                                    <img src="{{asset('backend/img/avatar/user.png')}}" alt="avatar">
+                                    <img src="{{asset(Auth::user()->profile_photo_url)}}" alt="avatar">
                                  </div>
                                  <!-- End User Avatar -->
 
                                  <!-- User Info -->
                                  <div class="user-info">
-                                    <h4 class="user-name">Abrilay Khatun</h4>
-                                    <p class="user-email">abrilakh@gmail.com</p>
+                                    <h4 class="user-name">{{Auth::user()->name}}</h4>
+                                    <p class="user-email">{{Auth::user()->email}}</p>
                                  </div>
                                  <!-- End User Info -->
                               </div>
