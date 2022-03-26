@@ -77,7 +77,7 @@ Route::get('/whatsapp', function(){
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    toast('Success Toast','error')->autoClose(3000);
+    toast('Success Toast','success')->autoClose(3000);
 
     return view('dashboard');
 })->name('dashboard');
