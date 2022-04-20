@@ -27,6 +27,11 @@ Route::get('/webinar', function(){
 
 }); 
 
+Route::get('/meet', function(){
+    return redirect()->away('https://meet.google.com/nvx-vozi-kbt');
+
+}); 
+
 //Pages Under Construction
 
 #Industries Start
