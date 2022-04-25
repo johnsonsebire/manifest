@@ -20,6 +20,7 @@ Route::view('/landing', 'frontend.landing')->name('landing');
 Route::view('/', 'frontend.home')->name('home'); 
 Route::view('/culture', 'frontend.culture')->name('culture'); 
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
+Route::view('/anniversary', 'frontend.anniversary')->name('anniversary'); 
 // Route::view('/webinar', 'frontend.webinar')->name('webinar'); 
 
 Route::get('/webinar', function(){
