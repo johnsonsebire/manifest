@@ -29,7 +29,8 @@ Route::get('/webinar', function(){
 }); 
 
 Route::get('/meet', function(){
-    return redirect()->away('https://meet.google.com/nvx-vozi-kbt');
+    return redirect()->away('https://meet.google.com/ejx-bgta-bjz');
+    // return redirect()->away('https://meet.google.com/nvx-vozi-kbt');
 
 }); 
 
@@ -75,9 +76,9 @@ Route::resource('/order', Order::class);
 
 Route::get('/whatsapp', function(){
 
-    $input=$request->all();
+    // $input=$request->all();
 
-    print_r($input);
+    // print_r($input);
 
     
 });
