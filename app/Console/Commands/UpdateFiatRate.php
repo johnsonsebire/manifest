@@ -47,7 +47,13 @@ class UpdateFiatRate extends Command
 
             $update=json_decode(fiatConverter($pair)); 
             
-            $update=$update->result; 
+            if($update->result){
+                $update=$update->result;
+            } else {
+                // $error=$update;
+                $update=8;
+            }
+
 
             $checkpair=FiatRate::where('pair', $pair)->get();
 
@@ -85,6 +91,7 @@ class UpdateFiatRate extends Command
             
         } catch (\Throwable $th) {
             //throw $th;
+            print_r('There was an error'.$th);
         }
 
         
