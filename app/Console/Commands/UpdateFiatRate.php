@@ -45,13 +45,16 @@ class UpdateFiatRate extends Command
             //USDGHS
             $pair='usdghs'; 
 
-            $update=fiatConverter($pair); 
+            $update=json_decode(fiatConverter($pair)); 
+            
+            $update=$update->result; 
 
-            if($update){
-
+            if($update>0){
+                
                 $checkpair=FiatRate::where('pair', $pair)->get();
 
-                if($checkpair){
+
+                if($checkpair->count() > 0){
 
                     $store=FiatRate::where('pair', $pair)->update([
                         'rate'=>$update, 
