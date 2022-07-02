@@ -10,4 +10,12 @@ class coinPriceApi extends Controller
         $price=coinprice('btc');
         return ['price'=>$price]; 
     }
+
+    function getfiatRate($pair){
+
+        $price=fiatConverter($pair);
+        
+        return $price;
+        
+    }
 }
