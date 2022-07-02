@@ -6,16 +6,16 @@ use Illuminate\Http\Request;
 
 class coinPriceApi extends Controller
 {
-    function btc(){
+    public function btc(){
         $price=coinprice('btc');
         return ['price'=>$price]; 
     }
 
-    function getfiatRate($pair){
-
-        $price=fiatConverter($pair);
+    public function getfiatRate(Request $request){
+       
+        $price=json_decode(fiatConverter($request->pair));
         
-        return $price;
+        return $price->result;
         
     }
 }

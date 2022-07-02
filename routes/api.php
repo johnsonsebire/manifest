@@ -25,6 +25,8 @@ Route::prefix('v1')->group(function(){
 
     Route::get('coinprice_btc', [coinPriceApi::class, 'btc']);
 
-    Route::get('currency/{$pair}', [coinPriceApi::class, 'getfiatRate']);
+    Route::get('currency/{pair}', [coinPriceApi::class, 'getfiatRate']);
+    // Route::get('currency/{$pair}', function($request) { return $request->pair;});
+    // Route::get('currency', function(){return 'works';});
 
 });
