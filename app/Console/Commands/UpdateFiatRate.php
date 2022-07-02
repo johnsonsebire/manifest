@@ -49,31 +49,40 @@ class UpdateFiatRate extends Command
             
             $update=$update->result; 
 
-            if($update>0){
-                
-                $checkpair=FiatRate::where('pair', $pair)->get();
+            $checkpair=FiatRate::where('pair', $pair)->get();
+
+            if($checkpair->count() > 0){
 
 
-                if($checkpair->count() > 0){
+                if($update>0){
 
                     $store=FiatRate::where('pair', $pair)->update([
                         'rate'=>$update, 
                     ]);
-    
+
                     print_r('successfully updated');
-
-                } else {
-
-                    $store=new FiatRate;
-                    $store->pair=$pair;
-                    $store->rate=$update;
-                    $store->save();
-
-                    print_r('successfully stored');
+                
                 }
 
+            } else {
+
+                if($update>0){
+                    $update=$update;
+                } else{
+
+                    $update='8.0';
+                }
+                
+
+                $store=new FiatRate;
+                $store->pair=$pair;
+                $store->rate=$update;
+                $store->save();
+
+                print_r('successfully stored');
             }
 
+            
         } catch (\Throwable $th) {
             //throw $th;
         }
