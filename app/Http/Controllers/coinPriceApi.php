@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\FiatRate;
 
 class coinPriceApi extends Controller
 {
@@ -12,10 +13,24 @@ class coinPriceApi extends Controller
     }
 
     public function getfiatRate(Request $request){
-       
-        $price=json_decode(fiatConverter($request->pair));
+        $rate=''; 
+        $pair=$request->pair; 
+
+        $rate=FiatRate::where('pair', $pair)->first();
+
+        if($rate){
+            $rate=$rate->rate;
+
+            return $rate;
+        }
+        else{
+            return 'error'; 
+        }
+
+
+       // $price=json_decode(fiatConverter($request->pair));
         
-        return $price->result;
+        
         
     }
 }
