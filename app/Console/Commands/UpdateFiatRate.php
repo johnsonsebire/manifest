@@ -91,15 +91,15 @@ class UpdateFiatRate extends Command
             
         } catch (\Throwable $th) {
             //throw $th;
-            // print_r('There was an error'.$th);
-            $update=8.07;
+            print_r('There was an error'.$th);
+            // $update=8.07;
 
-                $store=new FiatRate;
-                $store->pair=$pair;
-                $store->rate=$update;
-                $store->save();
+            //     $store=new FiatRate;
+            //     $store->pair=$pair;
+            //     $store->rate=$update;
+            //     $store->save();
 
-                print_r('successfully stored with errors');
+            //     print_r('successfully stored with errors');
         }
 
         
