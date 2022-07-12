@@ -21,12 +21,12 @@
                     <h1 class="wow fadeInUp" data-wow-delay=".5s">Trusted Full Stack IT Company</h1>
                     <p class="wow fadeInUp" data-wow-delay=".6s">We build strategic, engaging experiences that reinforce credibility, communicate key information and turn prospects into profits.</p>
                     
-                    <a href="services.html" class="main-btn bordered-btn btn-white arrow-btn wow fadeInUp" data-wow-delay=".7s">View Services</a>
+                    <a href="{{url('')}}" class="main-btn bordered-btn btn-white arrow-btn wow fadeInUp" data-wow-delay=".7s">View Services</a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="hero-img wow fadeInRight" data-wow-delay=".5s">
-                    <img src="{{asset('pixlab/images/hero/hero-two-img-1.png')}}" alt="">
+                    <img src="{{asset('pixlab/images/hero/8th-anniversary-hero2.png')}}" alt="">
                 </div>
             </div>
         </div>
