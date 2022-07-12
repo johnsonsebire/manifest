@@ -8,7 +8,7 @@
     <!-- Navigation Start -->
     <nav class="menu pull-right">
         <ul class="menu-container list-unstyled d-flex align-items-center">
-            @if(Route::has('retail'))
+            @if(!Route::has('retail'))
             <!-- Mega Menu Start -->
             <li class="menu-item open-mega-menu">
                 <a class="nav-link submenu-icon" href="javascript:;">Solutions</a>
@@ -28,33 +28,33 @@
                         </div>
                         <div class="col-lg-6 p-25">
                             <div class="row no-gutters">
-                                @if(Route::has('retail'))
+                                @if(!Route::has('retail'))
                                 <div class="col-lg-4">
                                     <span class="sub-title text-uppercase">Industry</span>
                                     <ul class="list-unstyled">
-                                        @if (Route::has('retail'))
-                                            <li><a href="{{route('retail')}}">Retail</a></li>
+                                        @if (!Route::has('retail'))
+                                            <li><a href="{{url('/retail')}}">Retail</a></li>
                                         @endif
-                                        @if (Route::has('healthcare'))
-                                            <li><a href="{{route('healthcare')}}">Healthcare</a></li>
+                                        @if (!Route::has('healthcare'))
+                                            <li><a href="{{url('/healthcare')}}">Healthcare</a></li>
                                         @endif
-                                        @if (Route::has('blockchain'))
-                                            <li><a href="{{route('blockchain')}}">Blockchain</a></li>
+                                        @if (!Route::has('blockchain'))
+                                            <li><a href="{{url('/blockchain')}}">Blockchain</a></li>
                                         @endif
-                                        @if (Route::has('education'))
-                                            <li><a href="{{route('education')}}">Education</a></li>
+                                        @if (!Route::has('education'))
+                                            <li><a href="{{url('/education')}}">Education</a></li>
                                         @endif
-                                        @if (Route::has('charity'))
-                                            <li><a href="{{route('charity')}}">Charity</a></li>
+                                        @if (!Route::has('charity'))
+                                            <li><a href="{{url('/charity')}}">Charity</a></li>
                                         @endif
-                                        @if (Route::has('government'))
-                                            <li><a href="{{route('government')}}">Government</a></li>
+                                        @if (!Route::has('government'))
+                                            <li><a href="{{url('/government')}}">Government</a></li>
                                         @endif
-                                        @if (Route::has('technology'))
-                                            <li><a href="{{route('technology')}}">Technology</a></li>
+                                        @if (!Route::has('technology'))
+                                            <li><a href="{{url('/technology')}}">Technology</a></li>
                                         @endif
-                                        @if (Route::has('hr'))
-                                            <li><a href="{{route('hr')}}">Human Resources</a></li>
+                                        @if (!Route::has('hr'))
+                                            <li><a href="{{url('/hr')}}">Human Resources</a></li>
                                         @endif
                                     </ul>
                                 </div>

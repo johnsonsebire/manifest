@@ -16,8 +16,9 @@ use RealRashid\SweetAlert\Facades\Alert;
 */
 
 //Live
-Route::view('/landing', 'frontend.landing')->name('landing');
+Route::view('/', 'frontend.new')->name('new'); 
 Route::view('/', 'frontend.home')->name('home'); 
+Route::view('/landing', 'frontend.landing')->name('landing');
 Route::view('/culture', 'frontend.culture')->name('culture'); 
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
 Route::view('/anniversary', 'frontend.anniversary')->name('anniversary'); 
