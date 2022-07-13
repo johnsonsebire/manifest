@@ -275,32 +275,28 @@
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>Sit amet consectetur adipiscing elitsed 
-                                    eiusmod tempor incididunt ut labore ets dolore magna aliqua spendisse ultricesy gravida. Risus commodo viverra maece
-                                    nas accumsan lacus facilisis.</p>
+                                <p>Having worked with Manifest Ghana, I will recommend them to any client. They are professional, time-efficient and productivity is off a high standard. I am really impressed with what they did on Jeer care please visit and see for yourself.</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
                                         <img src="{{asset('pixlab/images/testimonial/thumb-1.jpg')}}" alt="">
                                     </div>
                                     <div class="author-title">
-                                        <h4>Robert A. Greening</h4>
-                                        <p class="position">Senior Manager</p>
+                                        <h4>Esther Yeboah</h4>
+                                        <p class="position">UK</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>Sit amet consectetur adipiscing elitsed 
-                                    eiusmod tempor incididunt ut labore ets dolore magna aliqua spendisse ultricesy gravida. Risus commodo viverra maece
-                                    nas accumsan lacus facilisis.</p>
+                                <p>Manifest Multimedia listens to their clients’ needs.</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
                                         <img src="{{asset('pixlab/images/testimonial/thumb-2.jpg')}}" alt="">
                                     </div>
                                     <div class="author-title">
-                                        <h4>Robert A. Greening</h4>
-                                        <p class="position">Senior Manager</p>
+                                        <h4>MBSB</h4>
+                                        <p class="position">USA</p>
                                     </div>
                                 </div>
                             </div>
