@@ -5,168 +5,17 @@
 
    <x-pixlab-hero-section />
 
-<!--====== Start Service Section ======-->
-<section class="service-area service-area-v2" id="services">
-    <div class="container-1350">
-        <div class="service-wrapper light-gray-bg">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-12.png')}}" height="70px" alt="Web Development">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">Website Development</a></h3>
-                            <p>We build robust & responsive websites that drive digital transformation with high ROI for our cherished customers. </p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-4.png')}}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">App Development</a></h3>
-                            <p>We produce quality customer-centric mobile & web applications that are matched to your needs. </p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-2.png')}}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">SAP Consulting</a></h3>
-                            <p>We carry out a detailed examination of the client's current process & improve on internal workflow processes.</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".25s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-3.png')}}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">Digital Marketing</a></h3>
-                            <p>We carve out winning digital marketing solutions for clients to reach their target audiences & thrive.</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".35s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-5.png')}}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">SEO Optimization</a></h3>
-                            <p>We create custom SEO campigns to help your most valuable audience find you online.</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".15s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-1.png')}}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">Branding & Advertising</a></h3>
-                            <p>We create strong brands that leave a lasting impression & produce brand loyalists for your organization!</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                {{-- <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-6.png')}}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">IT & Technology</a></h3>
-                            <p>Sed ut perspiciatis unde omnisy natus error volupt cusantium</p>
-                            <a href="{{url('')}}" class="btn-link-two btn-link-two">Read More</a>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
-        </div>
-    </div>
-</section><!--====== End Service Section ======-->
-<!--====== Start About Section ======-->
-<section class="about-area about-area-v4 pt-130 pb-80" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="img-holder mb-50 wow fadeInLeft">
-                    <img src="{{asset('pixlab/images/about/img-6.png')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-wrapper mb-30 wow fadeInRight">
-                    <div class="section-title section-title-left mb-30">
-                        <span class="sub-title st-two">About Company</span>
-                        <h2 class="font-45">We Deliver. Period!</h2>
-                    </div>
-                    <p>
-                       Since 2014, we have empowered individuals, startups, businesses, governments and everything in-between with the tools they need to leverage technology to enhance their lives and to excel.
-                       We enjoy broad-based access to proven and diversified technologies to business partners across the globe. 
-                       With a people first culture, we place people at the forefront of everything we do.    
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="item-box text-center mb-20">
-                                <div class="icon">
-                                    <i class="far fa-bezier-curve"></i>
-                                </div>
-                                <div class="text">
-                                    <h5>Web Design 
-                                        Solutions</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="item-box text-center mb-20">
-                                <div class="icon">
-                                    <i class="far fa-ball-pile"></i>
-                                </div>
-                                <div class="text">
-                                    <h5>Technology
-                                        Solutions</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="item-box text-center mb-20">
-                                <div class="icon">
-                                    <i class="far fa-bullseye-arrow"></i>
-                                </div>
-                                <div class="text">
-                                    <h5>Marketing 
-                                        Strategy</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!--====== End About Section ======-->
+   <x-pixlab-services-section />
+
+   <x-pixlab-about-section />
+
 <!--====== Start Partners Section ======-->
 <section class="partners-area partners-area-v1 pt-60 pb-50">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-8">
                 <div class="text-wrapper mb-20">
-                    <h5>We Have 25632+ Global Clients</h5>
+                    <h5>We Have served 200+ Global Clients</h5>
                 </div>
             </div>
             <div class="col-md-4">
@@ -176,37 +25,37 @@
         <div class="partners-slider-one">
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-11.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/bizonlive.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-12.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/barjul-travels.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-13.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/certifiedghana.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-14.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/ermitrade.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-15.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/hcp.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-16.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/cocoa360.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/img-12.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/jeercare.png')}}" alt=""></a>
                 </div>
             </div>
         </div>
@@ -382,16 +231,15 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section-title text-center WOW fadeInUp">
-                    <span class="sub-title st-two">Our Testimonials</span>
-                    <h2 class="font-45">What Our Clients Say About 
-                        Our Solutions</h2>
+                    <span class="sub-title st-two">Testimonials</span>
+                    <h2 class="font-45">What Our Clients Say</h2>
                 </div>
             </div>
         </div>
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="img-holder wow fadeInLeft">
-                    <img src="{{asset('pixlab/images/testimonial/img-4.png')}}" alt="">
+                    <img src="{{asset('pixlab/images/testimonial/testimonials.png')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-7">
@@ -413,16 +261,14 @@
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>Sit amet consectetur adipiscing elitsed 
-                                    eiusmod tempor incididunt ut labore ets dolore magna aliqua spendisse ultricesy gravida. Risus commodo viverra maece
-                                    nas accumsan lacus facilisis.</p>
+                                <p>I recommend working with them; they’ll do a good job for you..</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
                                         <img src="{{asset('pixlab/images/testimonial/thumb-2.jpg')}}" alt="">
                                     </div>
                                     <div class="author-title">
-                                        <h4>Robert A. Greening</h4>
-                                        <p class="position">Senior Manager</p>
+                                        <h4>Philip Gumah</h4>
+                                        <p class="position">Ghana</p>
                                     </div>
                                 </div>
                             </div>

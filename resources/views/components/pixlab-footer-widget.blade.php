@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="footer-logo mb-40 wow fadeInLeft">
-                            <img src="{{asset('pixlab/images/logo/footer-logo-1.png')}}" alt="Brand Logo">
+                            <img src="{{asset('frontend/images/logo/logo.png')}}" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-md-6">
