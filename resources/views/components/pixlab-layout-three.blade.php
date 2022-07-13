@@ -69,7 +69,6 @@
                 adroll.track("pageView");
             </script>
 
-
         </head>
         <body data-spy="scroll" data-target=".main-menu">
             <div class="home-v3-wrapper">
@@ -80,7 +79,7 @@
                 <x-pixlab-off-canvas-panel />
                 <!--====== End offcanvas-panel ======-->
 
-                <x-pixlab-header3 />
+                <x-pixlab-header-three />
                 <!--====== End Header Section ======-->
                 
                 {{$slot}}

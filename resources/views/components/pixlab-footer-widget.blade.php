@@ -10,8 +10,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="text-wrapper mb-40 wow fadeInRight">
-                            <h3>Modern Solutions For 
-                                <span class="blue-dark">Winning Businesses</span></h3>
+                            <h3>Precise Solutions For 
+                                <span class="blue-dark">Winning Organizations</span></h3>
                         </div>
                     </div>
                 </div>

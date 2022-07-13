@@ -31,17 +31,14 @@ Route::get('/webinar', function(){
 
 Route::get('/meet', function(){
     return redirect()->away('https://meet.google.com/ejx-bgta-bjz');
-    // return redirect()->away('https://meet.google.com/nvx-vozi-kbt');
-
 }); 
 
-//Pages Under Construction
 
-#Industries Start
 /*
 * Industries 
 * Use Services Single Template for Listed Industries
 */
+
 // Route::view('/retail', 'frontend.culture')->name('retail'); 
 // Route::view('/healthcare', 'frontend.culture')->name('healthcare'); 
 // Route::view('/blockchain', 'frontend.culture')->name('blockchain'); 
@@ -76,11 +73,6 @@ Route::get('/meet', function(){
 Route::resource('/order', Order::class);
 
 Route::get('/whatsapp', function(){
-
-    // $input=$request->all();
-
-    // print_r($input);
-
     
 });
 
