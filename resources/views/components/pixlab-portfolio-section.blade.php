@@ -72,7 +72,7 @@
                         <div class="portfolio-hover">
                             <div class="hover-content">
                                 <h3 class="title"><a href="{{''}}">Logo Design</a></h3>
-                                <p><a href="#">Design</a>, <a href="#">Branding</a></p>
+                                <p><a href="#">Design</a></p>
                             </div>
                         </div>
                     </div>
