@@ -17,16 +17,16 @@
                     <ul class="filter-btn mb-30">
                         <li data-filter="*" class="active">Show All</li>
                         <li data-filter=".cat-1">Design</li>
-                        <li data-filter=".cat-2">Branding</li>
-                        <li data-filter=".cat-3">Development</li>
-                        <li data-filter=".cat-4">SEO</li>
-                        <li data-filter=".cat-5">UX/UI Design</li>
+                        <li data-filter=".cat-2">Development</li>
+                        <li data-filter=".cat-3">Branding</li>
+                        <li data-filter=".cat-4">Apps</li>
+                        <li data-filter=".cat-5">Websites</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row masonry-row">
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-1 cat-3">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-2 cat-5">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="img-holder">
                         <img src="{{asset('pixlab/images/portfolio/hcp-support.png')}}" alt="portfolio">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-3 cat-4  cat-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-1 cat-3">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".3s">
                     <div class="img-holder">
                         <img src="{{asset('pixlab/images/portfolio/dci-portfolio-item.png')}}" alt="portfolio">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-12 portfolio-column cat-5">
+            <div class="col-lg-8 col-md-6 col-sm-12 portfolio-column cat-2 cat-4">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp">
                     <div class="img-holder">
                         <img src="{{asset('pixlab/images/portfolio/b2b-app.jpg')}}" alt="portfolio" data-wow-delay=".35s">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-4 cat-1 cat-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-1">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".4s">
                     <div class="img-holder">
                         <img src="{{asset('pixlab/images/portfolio/success-phenomenon-book-cover.png')}}" alt="portfolio">
