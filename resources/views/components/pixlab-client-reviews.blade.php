@@ -91,9 +91,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section-title text-center WOW fadeInUp">
-                    <span class="sub-title st-two">Our Testimonials</span>
-                    <h2 class="font-45">What Our Clients Say About 
-                        Our Solutions</h2>
+                    <span class="sub-title st-two">Client Reviews</span>
+                    <h2 class="font-45">What sets us apart?</h2>
                 </div>
             </div>
         </div>
