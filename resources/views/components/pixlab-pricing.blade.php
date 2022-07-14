@@ -63,7 +63,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="pricing-item pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-head text-center">
-                                <span class="plan">Golden Plan</span>
+                                <span class="plan">Enterprise Plan</span>
                                 <h2 class="price"><span class="currency">$</span>99.57<span class="duration">/Monthly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-22.png')}}" alt="">
                             </div>
@@ -124,7 +124,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="pricing-item pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-head text-center">
-                                <span class="plan">Golden Plan</span>
+                                <span class="plan">Enterprise Plan</span>
                                 <h2 class="price"><span class="currency">$</span>199.57<span class="duration">/Yearly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-22.png')}}" alt="">
                             </div>

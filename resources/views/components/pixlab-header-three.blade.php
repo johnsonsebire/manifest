@@ -42,63 +42,63 @@
                                     </li>
                                     <li class="has-children"><a href="#">Products</a>
                                         <ul class="sub-menu">
-                                            <li><a href="onepage-index-1.html">SmartPOS</a></li>
-                                            <li><a href="onepage-index-2.html">SmartAccounting</a></li>
-                                            <li><a href="onepage-index-3.html">SmartLMS</a></li>
+                                            <li><a href="{{url('')}}">SmartPOS</a></li>
+                                            <li><a href="{{url('')}}">SmartAccounting</a></li>
+                                            <li><a href="{{url('')}}">SmartLMS</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children"><a href="#">Expertise</a>
                                         <ul class="sub-menu">
-                                            <li class="has-children"><a href="onepage-index-1.html">Frontend</a>
+                                            <li class="has-children"><a href="{{url('')}}">Frontend</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="">Angular JS</a></li>
-                                                    <li><a href="">Vue JS</a></li>
-                                                    <li><a href="">React JS</a></li>
-                                                    <li><a href="">Express JS</a></li>
-                                                    <li><a href="">Javascript</a></li>
-                                                    <li><a href="">HTML/CSS</a></li>
+                                                    <li><a href="{{url('')}}">Angular JS</a></li>
+                                                    <li><a href="{{url('')}}">Vue JS</a></li>
+                                                    <li><a href="{{url('')}}">React JS</a></li>
+                                                    <li><a href="{{url('')}}">Express JS</a></li>
+                                                    <li><a href="{{url('')}}">Javascript</a></li>
+                                                    <li><a href="{{url('')}}">HTML/CSS</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="onepage-index-2.html">Backend</a>
+                                            <li class="has-children"><a href="{{url('')}}">Backend</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="">PHP</a></li>
-                                                    <li><a href="">Node JS</a></li>
-                                                    <li><a href="">Java</a></li>
-                                                    <li><a href="">Python</a></li>
-                                                    <li><a href="">Ruby on Rails</a></li>
-                                                    <li><a href="">.NET</a></li>
+                                                    <li><a href="{{url('')}}">PHP</a></li>
+                                                    <li><a href="{{url('')}}">Node JS</a></li>
+                                                    <li><a href="{{url('')}}">Java</a></li>
+                                                    <li><a href="{{url('')}}">Python</a></li>
+                                                    <li><a href="{{url('')}}">Ruby on Rails</a></li>
+                                                    <li><a href="{{url('')}}">.NET</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="onepage-index-3.html" >Cloud/DevOps</a>
+                                            <li class="has-children"><a href="{{url('')}}" >Cloud/DevOps</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="">AWS</a></li>
-                                                    <li><a href="">Google</a></li>
-                                                    <li><a href="">Microsoft Azure</a></li>
+                                                    <li><a href="{{url('')}}">AWS</a></li>
+                                                    <li><a href="{{url('')}}">Google</a></li>
+                                                    <li><a href="{{url('')}}">Microsoft Azure</a></li>
                                                 </ul></li>
-                                            <li class="has-children"><a href="onepage-index-3.html">E-Commerce</a>
+                                            <li class="has-children"><a href="{{url('')}}">E-Commerce</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="">Magento</a></li>
-                                                    <li><a href="">Shopify</a></li>
-                                                    <li><a href="">WooCommerce</a></li>
-                                                    <li><a href="">Big Commerce</a></li>
-                                                    <li><a href="">Open Cart</a></li>     
+                                                    <li><a href="{{url('')}}">Magento</a></li>
+                                                    <li><a href="{{url('')}}">Shopify</a></li>
+                                                    <li><a href="{{url('')}}">WooCommerce</a></li>
+                                                    <li><a href="{{url('')}}">Big Commerce</a></li>
+                                                    <li><a href="{{url('')}}">Open Cart</a></li>     
                                                 </ul> 
                                             </li>
-                                            <li class="has-children"><a href="onepage-index-3.html">CMS</a>
+                                            <li class="has-children"><a href="{{url('')}}">CMS</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="">WordPress</a></li>
-                                                    <li><a href="">Joomla</a></li>
-                                                    <li><a href="">Drupal</a></li>
-                                                    <li><a href="">Umbraco</a></li>
-                                                    <li><a href="">Sitescore</a></li>     
+                                                    <li><a href="{{url('')}}">WordPress</a></li>
+                                                    <li><a href="{{url('')}}">Joomla</a></li>
+                                                    <li><a href="{{url('')}}">Drupal</a></li>
+                                                    <li><a href="{{url('')}}">Umbraco</a></li>
+                                                    <li><a href="{{url('')}}">Sitescore</a></li>     
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="onepage-index-3.html">Other</a>
+                                            <li class="has-children"><a href="{{url('')}}">Other</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="">Tawk.to</a></li>
-                                                    <li><a href="">Zoho Business</a></li>  
-                                                    <li><a href="">Commerce Box</a></li>  
-                                                    <li><a href="">Cloudy Peeps CPaaS</a></li>
+                                                    <li><a href="{{url('')}}">Tawk.to</a></li>
+                                                    <li><a href="{{url('')}}">Zoho Business</a></li>  
+                                                    <li><a href="{{url('')}}">Commerce Box</a></li>  
+                                                    <li><a href="{{url('')}}">Cloudy Peeps CPaaS</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -126,27 +126,23 @@
                                 <ul class="sub-menu">
                                     <li class="has-children"><a href="{{url('')}}">Development</a>
                                         <ul class="sub-menu">
-                                            <li><a href="">Website Development </a></li>
-                                            <li><a href="">Mobile App Development</a></li>
-                                            <li><a href="">Web App Development</a></li>
+                                            <li><a href="{{url('')}}">Website Development </a></li>
+                                            <li><a href="{{url('')}}">Mobile App Development</a></li>
+                                            <li><a href="{{url('')}}">Web App Development</a></li>
                                             <li><a href="{{url('')}}">Blockchain Development</a></li>
-
                                         </ul>
                                     </li>
                                     <li class="has-children"><a href="{{url('')}}">Design</a>
                                         <ul class="sub-menu">
-                                            
-                                            <li><a href="">Corporate Branding</a></li>
-                                            <li><a href="">UI/UX Design</a></li>
-                                            <li><a href="">Logo Design</a></li>
-                                            
+                                            <li><a href="{{url('')}}">UI/UX Design</a></li>
+                                            <li><a href="{{url('')}}">Corporate Branding</a></li>
+                                            <li><a href="{{url('')}}">Product Design</a></li>
+                                            <li><a href="{{url('')}}">Illustrations</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children"><a href="{{url('')}}">Training</a>
                                         <ul class="sub-menu">
-                                            
-                                            <li><a href="">IT Training</a></li>
-                                            
+                                            <li><a href="{{url('')}}">IT Training</a></li>
                                         </ul>
                                     </li>
                            
@@ -163,7 +159,6 @@
                                     <li><a href="{{url('')}}">Downloads</a></li>
                                     <li><a href="{{url('')}}">Legal</a></li>
                                     <li><a href="{{url('')}}">Developer Resources</a></li>
-                                    {{-- <li><a href="{{url('')}}">Human Resources</a></li> --}}
                                 </ul>
                             </li>
                             

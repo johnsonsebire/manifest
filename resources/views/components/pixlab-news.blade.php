@@ -4,9 +4,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center mb-60 wow fadeInUp">
-                    <span class="sub-title st-two">Our News & Blog</span>
-                    <h2 class="font-45">Get Every Sigle Update
-                        Latest News & Tips</h2>
+                    <span class="sub-title st-two">Insights</span>
+                    <h2 class="font-45">Insights from our Team</h2>
                 </div>
             </div>
         </div>

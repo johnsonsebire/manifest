@@ -1,5 +1,5 @@
+<!DOCTYPE html>
     <!-- Happiness is not something readymade. It comes from your own actions. - Dalai Lama -->
-    <!DOCTYPE html>
     <html lang="en">
         <head>
             <!--====== Required meta tags ======-->
@@ -20,25 +20,25 @@
             
             <!--====== Tawk.to ======-->
             
-<script type="text/javascript" defer>
+            <script type="text/javascript" defer>
 
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/554b259ef82948372f4615b6/1e9lrte10';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <script>
-         setTimeout(function(){
-     document.getElementById('vid').play();
- },1000);
-		document.getElementById('vid').play();
-	</script>
-    <!--End of Tawk.to Script-->
+                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/554b259ef82948372f4615b6/1e9lrte10';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+                })();
+                </script>
+                <script>
+                    setTimeout(function(){
+                document.getElementById('vid').play();
+            },1000);
+                    document.getElementById('vid').play();
+                </script>
+            <!--End of Tawk.to Script-->
 
             <!--====== Adroll Script ======-->
             <script type="text/javascript">
@@ -70,6 +70,7 @@
             </script>
 
         </head>
+
         <body data-spy="scroll" data-target=".main-menu">
             <div class="home-v3-wrapper">
                 <!--====== Start Preloader ======-->
@@ -78,7 +79,6 @@
                 <!--====== offcanvas-panel ======-->
                 <x-pixlab-off-canvas-panel />
                 <!--====== End offcanvas-panel ======-->
-
                 <x-pixlab-header-three />
                 <!--====== End Header Section ======-->
                 

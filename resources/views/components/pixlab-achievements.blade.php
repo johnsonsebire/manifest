@@ -8,7 +8,7 @@
             <div class="col-lg-6">
                 <div class="section-title text-center mb-80 wow fadeInUp">
                     <span class="sub-title st-two">Our Achievements</span>
-                    <h2 class="font-45">Because Numbers don't lie!</h2>
+                    <h2 class="font-45">Because numbers don't lie!</h2>
                 </div>
             </div>
         </div>
