@@ -61,7 +61,7 @@
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('')}}">SEO Optimization</a></h3>
-                            <p>We create custom SEO campigns to help your most valuable audience find you online.</p>
+                            <p>We create custom SEO campaigns to help your most valuable audience find you online.</p>
                             <a href="{{url('')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
