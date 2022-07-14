@@ -36,7 +36,7 @@
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('')}}">SAP Consulting</a></h3>
-                            <p>We carry out a detailed examination of the client's current process & improve on internal workflow processes.</p>
+                            <p>We carry out detailed examinations of the client's current process & improve on internal workflow processes.</p>
                             <a href="{{url('')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
