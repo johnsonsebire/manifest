@@ -169,7 +169,7 @@
                 </div>
                 <div class="header-right-nav">
                     <ul>
-                        <li class="nav-button"><a href="contact.html" class="main-btn arrow-btn">Let’s Talk</a></li>
+                        <li class="nav-button"><a href="{{url('')}}" class="main-btn arrow-btn">Let’s Talk</a></li>
                         <li class="bar-item"><img src="{{asset('pixlab/images/bar.png')}}" alt="button"></li>
                         <li class="navbar-toggle-btn">
                             <div class="navbar-toggler">

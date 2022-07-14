@@ -26,16 +26,19 @@
                         <div class="pricing-item pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".2s">
                             <div class="pricing-head text-center">
                                 <span class="plan">Basic Plan</span>
-                                <h2 class="price"><span class="currency">$</span>29.57<span class="duration">/Monthly</span></h2>
+                                <h2 class="price" style="font-size:50px"><span class="currency">$</span>30.79<span class="duration">/Monthly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-20.png')}}" alt="">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
-                                    <li class="check">Unique Websites Design</li>
-                                    <li class="check">Automate Busy Work</li>
-                                    <li class="check">Optimize Your Efforts</li>
-                                    <li class="uncheck">Web Developments</li>
-                                    <li class="uncheck">UX/UI Design Strategy</li>
+                                    <li class="check">Unique Website Design</li>
+                                    <li class="check">Fully Hosted Solution</li>
+                                    <li class="check">Built by Professionals</li>
+                                    <li class="check">Free SSL</li>
+                                    <li class="check">Payment Integration</li>
+                                    <li class="uncheck">Unlimited Pages</li>
+                                    <li class="uncheck">Automated Backups</li>
+                                    <li class="uncheck">Business Mail Pro</li>
                                 </ul>
                                 <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
@@ -45,16 +48,19 @@
                         <div class="pricing-item  pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".3s">
                             <div class="pricing-head text-center">
                                 <span class="plan">Standard Plan</span>
-                                <h2 class="price"><span class="currency">$</span>49.57<span class="duration">/Monthly</span></h2>
+                                <h2 class="price" style="font-size:50px"><span class="currency">$</span>61.57<span class="duration">/Monthly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-21.png')}}" alt="">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
-                                    <li class="check">Unique Websites Design</li>
-                                    <li class="check">Automate Busy Work</li>
-                                    <li class="check">Optimize Your Efforts</li>
-                                    <li class="check">Web Developments</li>
-                                    <li class="check">UX/UI Design Strategy</li>
+                                    <li class="check">Unique Website Design</li>
+                                    <li class="check">Fully Hosted Solution</li>
+                                    <li class="check">Built By Professionals</li>
+                                    <li class="check">Free SSL</li>
+                                    <li class="check">Payment Integration</li>
+                                    <li class="uncheck">Unlimited Pages</li>
+                                    <li class="uncheck">Automated Backups</li>
+                                    <li class="uncheck">Business Mail Pro</li>
                                 </ul>
                                 <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
@@ -64,16 +70,19 @@
                         <div class="pricing-item pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-head text-center">
                                 <span class="plan">Enterprise Plan</span>
-                                <h2 class="price"><span class="currency">$</span>99.57<span class="duration">/Monthly</span></h2>
+                                <h2 class="price" style="font-size:50px"><span class="currency">$</span>123.57<span class="duration">/Monthly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-22.png')}}" alt="">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
-                                    <li class="check">Unique Websites Design</li>
-                                    <li class="check">Automate Busy Work</li>
-                                    <li class="check">Optimize Your Efforts</li>
-                                    <li class="check">Web Developments</li>
-                                    <li class="check">UX/UI Design Strategy</li>
+                                    <li class="check">Unique Website Design</li>
+                                    <li class="check">Fully Hosted Solution</li>
+                                    <li class="check">Built By Professionals</li>
+                                    <li class="check">Optimized For Security</li>
+                                    <li class="check">Payment Integration</li>
+                                    <li class="check">Unlimited Pages</li>
+                                    <li class="check">Automated Backups</li>
+                                    <li class="check">Business Mail Pro</li>
                                 </ul>
                                 <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
@@ -87,16 +96,19 @@
                         <div class="pricing-item pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".2s">
                             <div class="pricing-head text-center">
                                 <span class="plan">Basic Plan</span>
-                                <h2 class="price"><span class="currency">$</span>129.57<span class="duration">/Yearly</span></h2>
+                                <h2 class="price" style="font-size:50px"><span class="currency">$</span>307.9<span class="duration">/Yearly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-20.png')}}" alt="">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
-                                    <li class="check">Unique Websites Design</li>
-                                    <li class="check">Automate Busy Work</li>
-                                    <li class="check">Optimize Your Efforts</li>
-                                    <li class="uncheck">Web Developments</li>
-                                    <li class="uncheck">UX/UI Design Strategy</li>
+                                    <li class="check">Unique Website Design</li>
+                                    <li class="check">Fully Hosted Solution</li>
+                                    <li class="check">Built by Professionals</li>
+                                    <li class="check">Free SSL</li>
+                                    <li class="check">Payment Integration</li>
+                                    <li class="uncheck">Unlimited Pages</li>
+                                    <li class="uncheck">Automated Backups</li>
+                                    <li class="uncheck">Business Mail Pro</li>
                                 </ul>
                                 <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
@@ -106,16 +118,19 @@
                         <div class="pricing-item  pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".3s">
                             <div class="pricing-head text-center">
                                 <span class="plan">Standard Plan</span>
-                                <h2 class="price"><span class="currency">$</span>149.57<span class="duration">/Yearly</span></h2>
+                                <h2 class="price" style="font-size:50px"><span class="currency">$</span>615.7<span class="duration">/Yearly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-21.png')}}" alt="">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
-                                    <li class="check">Unique Websites Design</li>
-                                    <li class="check">Automate Busy Work</li>
-                                    <li class="check">Optimize Your Efforts</li>
-                                    <li class="check">Web Developments</li>
-                                    <li class="check">UX/UI Design Strategy</li>
+                                    <li class="check">Unique Website Design</li>
+                                    <li class="check">Fully Hosted Solution</li>
+                                    <li class="check">Built By Professionals</li>
+                                    <li class="check">Free SSL</li>
+                                    <li class="check">Payment Integration</li>
+                                    <li class="uncheck">Unlimited Pages</li>
+                                    <li class="uncheck">Automated Backups</li>
+                                    <li class="uncheck">Business Mail Pro</li>
                                 </ul>
                                 <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
@@ -125,16 +140,19 @@
                         <div class="pricing-item pricing-item-three mb-40 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-head text-center">
                                 <span class="plan">Enterprise Plan</span>
-                                <h2 class="price"><span class="currency">$</span>199.57<span class="duration">/Yearly</span></h2>
+                                <h2 class="price" style="font-size:50px"><span class="currency">$</span>1,235.7<span class="duration">/Yearly</span></h2>
                                 <img src="{{asset('pixlab/images/icon/icon-22.png')}}" alt="">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
-                                    <li class="check">Unique Websites Design</li>
-                                    <li class="check">Automate Busy Work</li>
-                                    <li class="check">Optimize Your Efforts</li>
-                                    <li class="check">Web Developments</li>
-                                    <li class="check">UX/UI Design Strategy</li>
+                                    <li class="check">Unique Website Design</li>
+                                    <li class="check">Fully Hosted Solution</li>
+                                    <li class="check">Built By Professionals</li>
+                                    <li class="check">Optimized For Security</li>
+                                    <li class="check">Payment Integration</li>
+                                    <li class="check">Unlimited Pages</li>
+                                    <li class="check">Automated Backups</li>
+                                    <li class="check">Business Mail Pro</li>
                                 </ul>
                                 <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
