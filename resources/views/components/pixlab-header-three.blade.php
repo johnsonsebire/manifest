@@ -34,7 +34,7 @@
                                 <ul class="sub-menu">
                                     <li class="has-children"><a href="#">About Us</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('')}}">Who we are</a></li>
+                                            <li><a href="{{url('')}}">Our Culture</a></li>
                                             <li><a href="{{url('')}}">Our Process</a></li>
                                             <li><a href="{{url('')}}">Life At Manifest</a></li>
                                             <li><a href="{{url('')}}">Join the Team</a></li>
