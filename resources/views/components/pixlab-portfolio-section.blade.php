@@ -68,10 +68,10 @@
             <div class="col-lg-8 col-md-6 col-sm-12 portfolio-column cat-5">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp">
                     <div class="img-holder">
-                        <img src="{{asset('pixlab/images/portfolio/img-19.jpg')}}" alt="portfolio" data-wow-delay=".35s">
+                        <img src="{{asset('pixlab/images/portfolio/dci-portfolio-item.png')}}" alt="portfolio" data-wow-delay=".35s">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Book Cover Design</a></h3>
+                                <h3 class="title"><a href="{{''}}">Logo Design</a></h3>
                                 <p><a href="#">Design</a>, <a href="#">Branding</a></p>
                             </div>
                         </div>
@@ -81,11 +81,11 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-4 cat-1 cat-2">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".4s">
                     <div class="img-holder">
-                        <img src="{{asset('pixlab/images/portfolio/img-20.jpg')}}" alt="portfolio">
+                        <img src="{{asset('pixlab/images/portfolio/success-phenomenon-book-cover.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Book Cover Design</a></h3>
-                                <p><a href="#">Design</a>, <a href="#">Branding</a></p>
+                                <h3 class="title"><a href="{{url('')}}">Book Cover Design</a></h3>
+                                <p><a href="#">Design</a></p>
                             </div>
                         </div>
                     </div>
