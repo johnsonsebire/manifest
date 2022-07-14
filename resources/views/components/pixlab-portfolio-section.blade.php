@@ -29,11 +29,11 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-1 cat-3">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="img-holder">
-                        <img src="{{asset('pixlab/images/portfolio/img-16.jpg')}}" alt="portfolio">
+                        <img src="{{asset('pixlab/images/portfolio/hcp-support.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Book Cover Design</a></h3>
-                                <p><a href="#">Design</a>, <a href="#">Branding</a></p>
+                                <h3 class="title"><a href="project-details.html">Website</a></h3>
+                                <p><a href="#">Development</a></p>
                             </div>
                         </div>
                     </div>
@@ -42,11 +42,11 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-2 cat-5">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".25s">
                     <div class="img-holder">
-                        <img src="{{asset('pixlab/images/portfolio/img-17.jpg')}}" alt="portfolio">
+                        <img src="{{asset('pixlab/images/portfolio/tessynet-travel.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Book Cover Design</a></h3>
-                                <p><a href="#">Design</a>, <a href="#">Branding</a></p>
+                                <h3 class="title"><a href="project-details.html">Website</a></h3>
+                                <p><a href="#">Development</a></p>
                             </div>
                         </div>
                     </div>
@@ -55,11 +55,11 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-3 cat-4  cat-2">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp" data-wow-delay=".3s">
                     <div class="img-holder">
-                        <img src="{{asset('pixlab/images/portfolio/img-18.jpg')}}" alt="portfolio">
+                        <img src="{{asset('pixlab/images/portfolio/dci-portfolio-item.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Book Cover Design</a></h3>
-                                <p><a href="#">Design</a>, <a href="#">Branding</a></p>
+                                <h3 class="title"><a href="project-details.html">Logo Design</a></h3>
+                                <p><a href="#">Design</a></p>
                             </div>
                         </div>
                     </div>
@@ -68,11 +68,11 @@
             <div class="col-lg-8 col-md-6 col-sm-12 portfolio-column cat-5">
                 <div class="portfolio-item portfolio-style-three mb-30 wow fadeInUp">
                     <div class="img-holder">
-                        <img src="{{asset('pixlab/images/portfolio/dci-portfolio-item.png')}}" alt="portfolio" data-wow-delay=".35s">
+                        <img src="{{asset('pixlab/images/portfolio/b2b-app.jpg')}}" alt="portfolio" data-wow-delay=".35s">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="{{''}}">Logo Design</a></h3>
-                                <p><a href="#">Design</a></p>
+                                <h3 class="title"><a href="{{''}}">Web Application</a></h3>
+                                <p><a href="#">Development</a></p>
                             </div>
                         </div>
                     </div>

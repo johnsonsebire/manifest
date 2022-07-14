@@ -23,7 +23,7 @@
                                 <p>I love my website and I will totally recommend Manifest Multimedia. They are so professional, time efficient, helpful and precise. Thank you once again.</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
-                                        <img src="{{asset('pixlab/images/testimonial/thumb-1.jpg')}}" alt="">
+                                        <img src="{{asset('pixlab/images/testimonial/female-avatar.png')}}" alt="">
                                     </div>
                                     <div class="author-title">
                                         <h4>Pamela</h4>
@@ -37,7 +37,7 @@
                                 <p>I recommend working with them; they’ll do a good job for you..</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
-                                        <img src="{{asset('pixlab/images/testimonial/thumb-2.jpg')}}" alt="">
+                                        <img src="{{asset('pixlab/images/testimonial/male-avatar.png')}}" alt="">
                                     </div>
                                     <div class="author-title">
                                         <h4>Philip Gumah</h4>
@@ -51,7 +51,7 @@
                                 <p>Having worked with Manifest Ghana, I will recommend them to any client. They are professional, time-efficient and productivity is off a high standard. I am really impressed with what they did on Jeer care please visit and see for yourself.</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
-                                        <img src="{{asset('pixlab/images/testimonial/thumb-1.jpg')}}" alt="">
+                                        <img src="{{asset('pixlab/images/testimonial/female-avatar.jpg')}}" alt="">
                                     </div>
                                     <div class="author-title">
                                         <h4>Esther Yeboah</h4>
@@ -65,7 +65,7 @@
                                 <p>Manifest Multimedia listens to their clients’ needs.</p>
                                 <div class="author-title-thumb d-flex">
                                     <div class="author-thumb">
-                                        <img src="{{asset('pixlab/images/testimonial/thumb-2.jpg')}}" alt="">
+                                        <img src="{{asset('pixlab/images/testimonial/female-avatar.jpg')}}" alt="">
                                     </div>
                                     <div class="author-title">
                                         <h4>MBSB</h4>
