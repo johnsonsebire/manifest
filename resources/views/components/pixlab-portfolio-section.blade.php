@@ -32,7 +32,7 @@
                         <img src="{{asset('pixlab/images/portfolio/hcp-support.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Website</a></h3>
+                                <h3 class="title"><a href="{{url('')}}">Website</a></h3>
                                 <p><a href="#">Development</a></p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                         <img src="{{asset('pixlab/images/portfolio/tessynet-travel.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Website</a></h3>
+                                <h3 class="title"><a href="{{url('')}}">Website</a></h3>
                                 <p><a href="#">Development</a></p>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                         <img src="{{asset('pixlab/images/portfolio/dci-portfolio-item.png')}}" alt="portfolio">
                         <div class="portfolio-hover">
                             <div class="hover-content">
-                                <h3 class="title"><a href="project-details.html">Logo Design</a></h3>
+                                <h3 class="title"><a href="{{url('')}}">Logo Design</a></h3>
                                 <p><a href="#">Design</a></p>
                             </div>
                         </div>
