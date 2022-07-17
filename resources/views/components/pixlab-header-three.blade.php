@@ -71,9 +71,9 @@
                                             </li>
                                             <li class="has-children"><a href="{{url('')}}" >Cloud/DevOps</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('')}}">AWS</a></li>
-                                                    <li><a href="{{url('')}}">Google</a></li>
-                                                    <li><a href="{{url('')}}">Microsoft Azure</a></li>
+                                                    <li><a href="{{url('service/aws')}}">AWS</a></li>
+                                                    <li><a href="{{url('service/google')}}">Google</a></li>
+                                                    <li><a href="{{url('service/azure')}}">Microsoft Azure</a></li>
                                                 </ul></li>
                                             <li class="has-children"><a href="{{url('')}}">E-Commerce</a>
                                                 <ul class="sub-menu">
@@ -124,33 +124,33 @@
                             </li>
                             <li class="menu-item has-children"><a href="#" class="nav-link">Solutions</a>
                                 <ul class="sub-menu">
-                                    <li class="has-children"><a href="{{url('')}}">Development</a>
+                                    <li class="has-children"><a href="{{url('#')}}">Development</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('')}}">Website Development </a></li>
-                                            <li><a href="{{url('')}}">Mobile App Development</a></li>
-                                            <li><a href="{{url('')}}">Web App Development</a></li>
-                                            <li><a href="{{url('')}}">Blockchain Development</a></li>
+                                            <li><a href="{{url('service/website-development')}}">Website Development </a></li>
+                                            <li><a href="{{url('service/mobile-app-development')}}">Mobile App Development</a></li>
+                                            <li><a href="{{url('service/web-app-development')}}">Web App Development</a></li>
+                                            <li><a href="{{url('service/blockchain-development')}}">Blockchain Development</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a href="{{url('')}}">Design</a>
+                                    <li class="has-children"><a href="{{url('#')}}">Design</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('')}}">UI/UX Design</a></li>
-                                            <li><a href="{{url('')}}">Corporate Branding</a></li>
-                                            <li><a href="{{url('')}}">Product Design</a></li>
-                                            <li><a href="{{url('')}}">Illustrations</a></li>
+                                            <li><a href="{{url('service/ui-ux-design')}}">UI/UX Design</a></li>
+                                            <li><a href="{{url('service/corporate-branding')}}">Corporate Branding</a></li>
+                                            <li><a href="{{url('service/product-design')}}">Product Design</a></li>
+                                            <li><a href="{{url('service/illustrations')}}">Illustrations</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a href="{{url('')}}">Training</a>
+                                    <li class="has-children"><a href="{{url('#')}}">Training</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('')}}">IT Training</a></li>
+                                            <li><a href="{{url('service/it-training')}}">IT Training</a></li>
                                         </ul>
                                     </li>
                            
-                                    <li><a href="{{url('')}}">SAP Consulting</a></li>
+                                    <li><a href="{{url('service/sap-consulting')}}">SAP Consulting</a></li>
                                     
-                                    <li><a href="{{url('')}}">Digital Marketing</a></li>
-                                    <li><a href="{{url('')}}">Advertising</a></li>
-                                    <li><a href="{{url('')}}">SEO</a></li>
+                                    <li><a href="{{url('service/digital-marketing')}}">Digital Marketing</a></li>
+                                    <li><a href="{{url('service/advertising')}}">Advertising</a></li>
+                                    <li><a href="{{url('service/seo')}}">SEO</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item has-children"><a href="#" class="nav-link">Resources</a>

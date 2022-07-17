@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\frontendController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Order; 
 use RealRashid\SweetAlert\Facades\Alert;
@@ -17,12 +18,13 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 //Live
 Route::view('/new', 'frontend.new')->name('new'); 
-Route::view('/', 'frontend.home')->name('home'); 
+Route::view('/', 'frontend.new')->name('home'); 
 Route::view('/landing', 'frontend.landing')->name('landing');
 Route::view('/culture', 'frontend.culture')->name('culture'); 
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
 Route::view('/anniversary', 'frontend.anniversary')->name('anniversary'); 
 // Route::view('/webinar', 'frontend.webinar')->name('webinar'); 
+Route::get('/service/{service}',[ frontendController::class, 'service']); 
 
 Route::get('/webinar', function(){
     return redirect()->away('https://zc.vg/9x8MK');

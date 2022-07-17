@@ -10,9 +10,9 @@
                             <img src="{{asset('pixlab/images/icon/icon-12.png')}}" height="70px" alt="Web Development">
                         </div>
                         <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">Website Development</a></h3>
+                            <h3 class="title"><a href="{{url('service/website-development')}}">Website Development</a></h3>
                             <p>We build robust & responsive websites that drive digital transformation with high ROI for our cherished customers. </p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
+                            <a href="{{url('service/website-development')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -22,9 +22,9 @@
                             <img src="{{asset('pixlab/images/icon/icon-4.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">App Development</a></h3>
+                            <h3 class="title"><a href="{{url('service/app-development')}}">App Development</a></h3>
                             <p>We produce quality customer-centric mobile & web applications that are matched to your needs. </p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
+                            <a href="{{url('service/app-development')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -35,9 +35,9 @@
                             <img src="{{asset('pixlab/images/icon/icon-2.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">SAP Consulting</a></h3>
+                            <h3 class="title"><a href="{{url('service/sap-consulting')}}">SAP Consulting</a></h3>
                             <p>We carry out detailed examinations of the client's current process & improve on internal workflow processes.</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
+                            <a href="{{url('service/sap-consulting')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -47,9 +47,9 @@
                             <img src="{{asset('pixlab/images/icon/icon-3.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">Digital Marketing</a></h3>
+                            <h3 class="title"><a href="{{url('service/digital-marketing')}}">Digital Marketing</a></h3>
                             <p>We carve out winning digital marketing solutions for clients to reach their target audiences & thrive.</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
+                            <a href="{{url('service/digital-marketing')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -60,9 +60,9 @@
                             <img src="{{asset('pixlab/images/icon/icon-5.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">SEO Optimization</a></h3>
+                            <h3 class="title"><a href="{{url('service/seo-optimization')}}">SEO Optimization</a></h3>
                             <p>We create custom SEO campaigns to help your most valuable audience find you online.</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
+                            <a href="{{url('service/seo-optimization')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -72,9 +72,9 @@
                             <img src="{{asset('pixlab/images/icon/icon-1.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <h3 class="title"><a href="{{url('')}}">Branding & Advertising</a></h3>
+                            <h3 class="title"><a href="{{url('service/branding-advertising')}}">Branding & Advertising</a></h3>
                             <p>We create strong brands that leave a lasting impression & produce brand loyalists for your organization!</p>
-                            <a href="{{url('')}}" class="btn-link-two">Read More</a>
+                            <a href="{{url('service/branding-advertising')}}" class="btn-link-two">Read More</a>
                         </div>
                     </div>
                 </div>
