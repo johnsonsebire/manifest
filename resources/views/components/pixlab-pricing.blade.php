@@ -84,7 +84,7 @@
                                     <li class="check">Automated Backups</li>
                                     <li class="check">Business Mail Pro</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="{{url('')}}" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                                     <li class="uncheck">Automated Backups</li>
                                     <li class="uncheck">Business Mail Pro</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="{{url('')}}" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                                     <li class="uncheck">Automated Backups</li>
                                     <li class="uncheck">Business Mail Pro</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="{{url('')}}" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                     <li class="check">Automated Backups</li>
                                     <li class="check">Business Mail Pro</li>
                                 </ul>
-                                <a href="contact.html" class="main-btn arrow-btn">Choose Plan</a>
+                                <a href="{{url('')}}" class="main-btn arrow-btn">Choose Plan</a>
                             </div>
                         </div>
                     </div>
