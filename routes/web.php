@@ -16,9 +16,16 @@ use RealRashid\SweetAlert\Facades\Alert;
 |
 */
 
+//Language Switcher
+Route::get('language/{locale}', function ($locale) {
+    app()->setLocale($locale);
+    session()->put('locale', $locale);
+    return redirect()->back();
+});
+
 //Live
 Route::view('/new', 'frontend.new')->name('new'); 
-Route::view('/', 'frontend.new')->name('home'); 
+Route::view('/', 'frontend.home')->name('home'); 
 Route::view('/landing', 'frontend.landing')->name('landing');
 Route::view('/culture', 'frontend.culture')->name('culture'); 
 Route::view('/solutions', 'frontend.culture')->name('solutions'); 
