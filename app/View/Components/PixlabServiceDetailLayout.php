@@ -18,14 +18,15 @@ class PixlabServiceDetailLayout extends Component
      public $process; 
      public $steps; 
      public $portfolio;
+     public $banner; 
 
      public $highlight_data;
      
 
-    public function __construct($tagline, $highlights, $data)
+    public function __construct($tagline, $highlights, $data, $url)
     {
 
-      
+      $this->banner=$url; 
 
         if(!is_null($tagline)){
 

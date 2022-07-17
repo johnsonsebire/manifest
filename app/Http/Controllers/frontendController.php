@@ -18,19 +18,20 @@ class frontendController extends Controller
         switch ($service) {
             case 'sap-consulting':
                 
+                $banner="pixlab/images/service/sap-consulting.jpg"; 
 
                 $highlights_data_passed=[
                     'highlight1'=> [
                         "title" => "Increased ROI", 
-                        'description' => "More money!",
+                        'description' => "",
                     ],
                     'highlight2'=>
                     [ 'title' => "Business Process Automation",
-                       'description' => 'Complete Business process automation',  
+                       'description' => '',  
                 ], 
                     'highlight3' => [
                         'title'=> "Increased Productivity", 
-                        'description' => "Workflow process management."
+                        'description' => ""
                     ], 
     
                    
@@ -39,7 +40,7 @@ class frontendController extends Controller
                
 
                 
-                return view('services.sap-consulting', compact('highlights_data_passed')); 
+                return view('services.sap-consulting', compact('highlights_data_passed', 'banner')); 
 
                 break;
             

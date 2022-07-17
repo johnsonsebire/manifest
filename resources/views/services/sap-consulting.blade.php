@@ -1,4 +1,4 @@
-<x-pixlab-service-detail-layout tagline="" highlights="yes" :data="$highlights_data_passed"> 
+<x-pixlab-service-detail-layout tagline="" highlights="yes" :data="$highlights_data_passed" :url="$banner"> 
     
     <x-slot name="title"> Manifest &mdash; SAP Consulting </x-slot>
     <x-slot name="page_title">SAP Consulting </x-slot>
