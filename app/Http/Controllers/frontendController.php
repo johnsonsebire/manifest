@@ -46,7 +46,7 @@ class frontendController extends Controller
             
             default:
                 
-                return 'Requested Service Page is not available or down for maintenance.'; 
+                return view('frontend.comingsoon'); 
                 
                 break;
         }

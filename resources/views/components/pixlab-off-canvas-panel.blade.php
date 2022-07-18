@@ -7,9 +7,9 @@
             <a href="index.html"><img src="{{asset('frontend/images/logo/logo.png')}}" alt="Logo"></a>
         </div>
         <div class="about-us">
-            <h5 class="panel-widget-title">Why Us?</h5>
+            <h5 class="panel-widget-title">{{__('Why Us?')}}</h5>
             <p>
-                Anybody can set up an app or a website. We build strategic, engaging experiences that reinforce credibility, communicate key information and turn prospects into profits.
+                {{__('Anybody can set up an app or a website.')}} {{__('We build strategic, engaging experiences that reinforce credibility, communicate key information and turn prospects into profits.')}}
             </p>
         </div>
         <div class="contact-us">
@@ -21,8 +21,8 @@
                 </li> --}}
                 <li>
                     <i class="fal fa-envelope-open"></i>
-                    <a href="mailto:hello@barky.com"> info@manifestghana.com</a>
-                    <a href="mailto:info@barky.com">business@manifestghana.com</a>
+                    <a href="mailto:hello@barky.com">{{__('info@manifestghana.com')}}</a>
+                    <a href="mailto:info@barky.com">{{__('business@manifestghana.com')}}</a>
                 </li>
                 <li>
                     <i class="fal fa-phone"></i>
