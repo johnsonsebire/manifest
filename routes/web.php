@@ -27,6 +27,7 @@ Route::get('language/{locale}', function ($locale) {
 
 Route::view('/', 'frontend.new')->name('home'); 
 Route::get('/service/{service}',[ frontendController::class, 'service']); 
+Route::get('/industry/{industry}',[ frontendController::class, 'industry']); 
 Route::get('/{page}',[ frontendController::class, 'pages']); 
 
 Route::get('/webinar', function(){

@@ -25,6 +25,22 @@ class frontendController extends Controller
         }
     }
 
+    public function industry($industry){
+
+        switch ($industry) {
+            case '':
+                
+                return redirect()->back();
+
+                break;
+            
+            default:
+                return view('frontend.comingsoon'); 
+                break;
+        }
+
+    }
+
     public function service($service){
 
         switch ($service) {
