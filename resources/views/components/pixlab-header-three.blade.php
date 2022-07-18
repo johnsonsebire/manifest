@@ -8,12 +8,7 @@
             <div class="primary-menu">
                 <div class="site-branding">
                     <a href="{{url('/')}}" class="brand-logo"><img src="{{asset('frontend/images/logo/logo.png')}}" alt="Logo"></a>
-                    <div class="lang-dropdown">
-                        <select class="wide">
-                            <option value="01">English</option>
-                            <option value="02">French</option>
-                        </select>
-                    </div>
+                    @livewire('language-switcher')
                 </div>
                 <div class="nav-menu nav-ml-auto">
                     <!-- Navbar Close -->
@@ -30,7 +25,7 @@
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <ul>
-                            <li class="menu-item has-children"><a href="#" class="active nav-link">Company</a>
+                            <li class="menu-item has-children"><a href="#" class="active nav-link">{{__("Company")}}</a>
                                 <ul class="sub-menu">
                                     <li class="has-children"><a href="#">About Us</a>
                                         <ul class="sub-menu">

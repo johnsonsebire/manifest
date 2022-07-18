@@ -95,6 +95,9 @@
 </footer><!--====== End Footer ======-->
   <!--====== back-to-top ======-->
   <a href="#" class="back-to-top" ><i class="far fa-angle-up"></i></a>
+
+  <livewire:scripts />
+
   <!--====== Jquery js ======-->
   <script src="{{asset('pixlab/vendor/jquery-3.6.0.min.js')}}"></script>
   <!--====== Bootstrap js ======-->

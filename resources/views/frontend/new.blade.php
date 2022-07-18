@@ -1,6 +1,6 @@
 <x-pixlab-layout-three> 
     <x-slot name="title">
-        Manifest &mdash; Trusted Full Stack IT Service Company 
+        Manifest &mdash; {{__('Trusted Full Stack IT Service Company')}} 
     </x-slot>
 
     <x-pixlab-hero-section />

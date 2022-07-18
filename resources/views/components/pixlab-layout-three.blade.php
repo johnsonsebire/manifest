@@ -11,12 +11,18 @@
             <title>{{$title}}</title>
             <!--====== Favicon Icon ======-->
             <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" type="image/png">
+            <script src="//unpkg.com/alpinejs" defer></script>
+
+            <livewire:styles />
             <!--====== Default css ======-->
             <link rel="stylesheet" href="{{asset('pixlab/css/default.css')}}">
             <!--====== Style css ======-->
             <link rel="stylesheet" href="{{asset('pixlab/css/style.css')}}">
             <!--====== Responsive css ======-->
             <link rel="stylesheet" href="{{asset('pixlab/css/responsive.css')}}">
+
+            
+           
             
             <!--Start of Tawk.to Script-->
             <script type="text/javascript">
