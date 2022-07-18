@@ -17,7 +17,7 @@
                     <div class="nav-search">
                         <form>
                             <div class="form_group">
-                                <input type="email" class="form_control" placeholder="Search Here" name="email" required>
+                                <input type="email" class="form_control" placeholder="{{__('Search Here')}}" name="email" required>
                                 <button class="search-btn"><i class="fas fa-search"></i></button>
                             </div>
                         </form>
@@ -27,144 +27,144 @@
                         <ul>
                             <li class="menu-item has-children"><a href="#" class="active nav-link">{{__("Company")}}</a>
                                 <ul class="sub-menu">
-                                    <li class="has-children"><a href="#">About Us</a>
+                                    <li class="has-children"><a href="#">{{__('About Us')}}</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('')}}">Our Culture</a></li>
-                                            <li><a href="{{url('')}}">Our Process</a></li>
-                                            <li><a href="{{url('')}}">Life At Manifest</a></li>
-                                            <li><a href="{{url('')}}">Join the Team</a></li>
+                                            <li><a href="{{url('')}}">{{__('Our Culture')}}</a></li>
+                                            <li><a href="{{url('')}}">{{__('Our Process')}}</a></li>
+                                            <li><a href="{{url('')}}">{{__('Life At Manifest')}}</a></li>
+                                            <li><a href="{{url('')}}">{{__('Join the Team')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a href="#">Products</a>
+                                    <li class="has-children"><a href="#">{{__('Products')}}</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('')}}">SmartPOS</a></li>
-                                            <li><a href="{{url('')}}">SmartAccounting</a></li>
-                                            <li><a href="{{url('')}}">SmartLMS</a></li>
+                                            <li><a href="{{url('')}}">{{__('SmartPOS')}}</a></li>
+                                            <li><a href="{{url('')}}">{{__('SmartAccounting')}}</a></li>
+                                            <li><a href="{{url('')}}">{{__('SmartLMS')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a href="#">Expertise</a>
+                                    <li class="has-children"><a href="#">{{__('Expertise')}}</a>
                                         <ul class="sub-menu">
-                                            <li class="has-children"><a href="{{url('')}}">Frontend</a>
+                                            <li class="has-children"><a href="{{url('')}}">{{__('Frontend')}}</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('')}}">Angular JS</a></li>
-                                                    <li><a href="{{url('')}}">Vue JS</a></li>
-                                                    <li><a href="{{url('')}}">React JS</a></li>
-                                                    <li><a href="{{url('')}}">Express JS</a></li>
-                                                    <li><a href="{{url('')}}">Javascript</a></li>
-                                                    <li><a href="{{url('')}}">HTML/CSS</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Angular JS')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Vue JS')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('React JS')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Express JS')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Javascript')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('HTML/CSS')}}</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="{{url('')}}">Backend</a>
+                                            <li class="has-children"><a href="{{url('')}}">{{__('Backend')}}</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('')}}">PHP</a></li>
-                                                    <li><a href="{{url('')}}">Node JS</a></li>
-                                                    <li><a href="{{url('')}}">Java</a></li>
-                                                    <li><a href="{{url('')}}">Python</a></li>
-                                                    <li><a href="{{url('')}}">Ruby on Rails</a></li>
-                                                    <li><a href="{{url('')}}">.NET</a></li>
+                                                    <li><a href="{{url('')}}">{{__('PHP')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Node JS')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Java')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Python')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Ruby on Rails')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('.NET')}}</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="{{url('')}}" >Cloud/DevOps</a>
+                                            <li class="has-children"><a href="{{url('')}}" >{{__('Cloud/DevOps')}}</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('service/aws')}}">AWS</a></li>
-                                                    <li><a href="{{url('service/google')}}">Google</a></li>
-                                                    <li><a href="{{url('service/azure')}}">Microsoft Azure</a></li>
+                                                    <li><a href="{{url('service/aws')}}">{{__('AWS')}}</a></li>
+                                                    <li><a href="{{url('service/google')}}">{{__('Google')}}</a></li>
+                                                    <li><a href="{{url('service/azure')}}">{{__('Microsoft Azure')}}</a></li>
                                                 </ul></li>
-                                            <li class="has-children"><a href="{{url('')}}">E-Commerce</a>
+                                            <li class="has-children"><a href="{{url('')}}">{{__('E-Commerce')}}</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('')}}">Magento</a></li>
-                                                    <li><a href="{{url('')}}">Shopify</a></li>
-                                                    <li><a href="{{url('')}}">WooCommerce</a></li>
-                                                    <li><a href="{{url('')}}">Big Commerce</a></li>
-                                                    <li><a href="{{url('')}}">Open Cart</a></li>     
+                                                    <li><a href="{{url('')}}">{{__('Magento')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Shopify')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('WooCommerce')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Big Commerce')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Open Cart')}}</a></li>     
                                                 </ul> 
                                             </li>
-                                            <li class="has-children"><a href="{{url('')}}">CMS</a>
+                                            <li class="has-children"><a href="{{url('')}}">{{__('CMS')}}</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('')}}">WordPress</a></li>
-                                                    <li><a href="{{url('')}}">Joomla</a></li>
-                                                    <li><a href="{{url('')}}">Drupal</a></li>
-                                                    <li><a href="{{url('')}}">Umbraco</a></li>
-                                                    <li><a href="{{url('')}}">Sitescore</a></li>     
+                                                    <li><a href="{{url('')}}">{{__('WordPress')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Joomla')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Drupal')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Umbraco')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Sitescore')}}</a></li>     
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="{{url('')}}">Other</a>
+                                            <li class="has-children"><a href="{{url('')}}">{{__('Other')}}</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="{{url('')}}">Tawk.to</a></li>
-                                                    <li><a href="{{url('')}}">Zoho Business</a></li>  
-                                                    <li><a href="{{url('')}}">Commerce Box</a></li>  
-                                                    <li><a href="{{url('')}}">Cloudy Peeps CPaaS</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Tawk.to')}}</a></li>
+                                                    <li><a href="{{url('')}}">{{__('Zoho Business')}}</a></li>  
+                                                    <li><a href="{{url('')}}">{{__('Commerce Box')}}</a></li>  
+                                                    <li><a href="{{url('')}}">{{__('Cloudy Peeps CPaaS')}}</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item"><a href="{{url('')}}" class="nav-link">Partnerships</a></li>
-                                    <li class="menu-item"><a href="{{url('')}}" class="nav-link">Clientele</a></li>
-                                    <li class="menu-item"><a href="{{url('')}}" class="nav-link">Contact Us</a></li>
+                                    <li class="menu-item"><a href="{{url('')}}" class="nav-link">{{__('Partnerships')}}</a></li>
+                                    <li class="menu-item"><a href="{{url('')}}" class="nav-link">{{__('Clientele')}}</a></li>
+                                    <li class="menu-item"><a href="{{url('')}}" class="nav-link">{{__('Contact Us')}}</a></li>
 
                                 </ul>
                             </li>
-                            <li class="menu-item has-children"><a href="#" class="nav-link">Industry</a>
+                            <li class="menu-item has-children"><a href="#" class="nav-link">{{__('Industry')}}</a>
                                 <ul class="sub-menu">
-                                    <li><a href="{{url('')}}">Retail</a></li>
-                                    <li><a href="{{url('')}}">Healthcare</a></li>
-                                    <li><a href="{{url('')}}">Government</a></li>
-                                    <li><a href="{{url('')}}">Education</a></li>
-                                    <li><a href="{{url('')}}">Transport</a></li>
-                                    <li><a href="{{url('')}}">Blockchain</a></li>
-                                    <li><a href="{{url('')}}">Charity</a></li>
-                                    <li><a href="{{url('')}}">Technology</a></li>
-                                    <li><a href="{{url('')}}">Human Resources</a></li>
+                                    <li><a href="{{url('')}}">{{__('Retail')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Healthcare')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Government')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Education')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Transport')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Blockchain')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Charity')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Technology')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Human Resources')}}</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item has-children"><a href="#" class="nav-link">Solutions</a>
+                            <li class="menu-item has-children"><a href="#" class="nav-link">{{__('Solutions')}}</a>
                                 <ul class="sub-menu">
-                                    <li class="has-children"><a href="{{url('#')}}">Development</a>
+                                    <li class="has-children"><a href="{{url('#')}}">{{__('Development')}}</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('service/website-development')}}">Website Development </a></li>
-                                            <li><a href="{{url('service/mobile-app-development')}}">Mobile App Development</a></li>
-                                            <li><a href="{{url('service/web-app-development')}}">Web App Development</a></li>
-                                            <li><a href="{{url('service/blockchain-development')}}">Blockchain Development</a></li>
+                                            <li><a href="{{url('service/website-development')}}">{{__('Website Development')}} </a></li>
+                                            <li><a href="{{url('service/mobile-app-development')}}">{{__('Mobile App Development')}}</a></li>
+                                            <li><a href="{{url('service/web-app-development')}}">{{__('Web App Development')}}</a></li>
+                                            <li><a href="{{url('service/blockchain-development')}}">{{__('Blockchain Development')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a href="{{url('#')}}">Design</a>
+                                    <li class="has-children"><a href="{{url('#')}}">{{__('Design')}}</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('service/ui-ux-design')}}">UI/UX Design</a></li>
-                                            <li><a href="{{url('service/corporate-branding')}}">Corporate Branding</a></li>
-                                            <li><a href="{{url('service/product-design')}}">Product Design</a></li>
-                                            <li><a href="{{url('service/illustrations')}}">Illustrations</a></li>
+                                            <li><a href="{{url('service/ui-ux-design')}}">{{__('UI/UX Design')}}</a></li>
+                                            <li><a href="{{url('service/corporate-branding')}}">{{__('Corporate Branding')}}</a></li>
+                                            <li><a href="{{url('service/product-design')}}">{{__('Product Design')}}</a></li>
+                                            <li><a href="{{url('service/illustrations')}}">{{__('Illustrations')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a href="{{url('#')}}">Training</a>
+                                    <li class="has-children"><a href="{{url('#')}}">{{__('Training')}}</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{url('service/it-training')}}">IT Training</a></li>
+                                            <li><a href="{{url('service/it-training')}}">{{__('IT Training')}}</a></li>
                                         </ul>
                                     </li>
                            
-                                    <li><a href="{{url('service/sap-consulting')}}">SAP Consulting</a></li>
+                                    <li><a href="{{url('service/sap-consulting')}}">{{__('SAP Consulting')}}</a></li>
                                     
-                                    <li><a href="{{url('service/digital-marketing')}}">Digital Marketing</a></li>
-                                    <li><a href="{{url('service/advertising')}}">Advertising</a></li>
-                                    <li><a href="{{url('service/seo')}}">SEO</a></li>
+                                    <li><a href="{{url('service/digital-marketing')}}">{{__('Digital Marketing')}}</a></li>
+                                    <li><a href="{{url('service/advertising')}}">{{__('Advertising')}}</a></li>
+                                    <li><a href="{{url('service/seo')}}">{{__('SEO')}}</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item has-children"><a href="#" class="nav-link">Resources</a>
+                            <li class="menu-item has-children"><a href="#" class="nav-link">{{__('Resources')}}</a>
                                 <ul class="sub-menu">
-                                    <li><a href="{{url('')}}">Blog</a></li>
-                                    <li><a href="{{url('')}}">Downloads</a></li>
-                                    <li><a href="{{url('')}}">Legal</a></li>
-                                    <li><a href="{{url('')}}">Developer Resources</a></li>
+                                    <li><a href="{{url('')}}">{{__('Blog')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Downloads')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Legal')}}</a></li>
+                                    <li><a href="{{url('')}}">{{__('Developer Resources')}}</a></li>
                                 </ul>
                             </li>
                             
 
-                            <li class="menu-item"><a href="{{url('login')}}" class="page-scroll nav-link">Login</a></li> 
+                            <li class="menu-item"><a href="{{url('login')}}" class="page-scroll nav-link">{{__('Login')}}</a></li> 
                         </ul>
                     </nav>
                 </div>
                 <div class="header-right-nav">
                     <ul>
-                        <li class="nav-button"><a href="{{url('https://tawk.to/chat/554b259ef82948372f4615b6/1e9lrte10')}}" class="main-btn arrow-btn">Let’s Talk</a></li>
+                        <li class="nav-button"><a href="{{url('https://tawk.to/chat/554b259ef82948372f4615b6/1e9lrte10')}}" class="main-btn arrow-btn">{{__("Let’s Talk")}}</a></li>
                         <li class="bar-item"><img src="{{asset('pixlab/images/bar.png')}}" alt="button"></li>
                         <li class="navbar-toggle-btn">
                             <div class="navbar-toggler">
