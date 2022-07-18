@@ -7,7 +7,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".3s">
                         <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-12.png')}}" height="70px" alt="Web Development">
+                            <img src="{{asset('pixlab/images/icon/icon-12.png')}}" height="70px" loading="lazy" alt="Web Development">
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('service/website-development')}}">Website Development</a></h3>
@@ -19,7 +19,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".3s">
                         <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-4.png')}}" alt="">
+                            <img src="{{asset('pixlab/images/icon/icon-4.png')}}" loading="lazy" alt="App Development Icon">
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('service/app-development')}}">App Development</a></h3>
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".2s">
                         <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-2.png')}}" alt="">
+                            <img src="{{asset('pixlab/images/icon/icon-2.png')}}" loading="lazy" alt="SAP Consulting Icon">
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('service/sap-consulting')}}">SAP Consulting</a></h3>
@@ -44,7 +44,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".25s">
                         <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-3.png')}}" alt="">
+                            <img src="{{asset('pixlab/images/icon/icon-3.png')}}" loading="lazy" alt="Digital Marketing Icon">
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('service/digital-marketing')}}">Digital Marketing</a></h3>
@@ -57,7 +57,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".35s">
                         <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-5.png')}}" alt="">
+                            <img src="{{asset('pixlab/images/icon/icon-5.png')}}" loading="lazy" alt="SEO Icon">
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('service/seo-optimization')}}">SEO Optimization</a></h3>
@@ -69,7 +69,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-item service-style-three mb-30 wow fadeInUp" data-wow-delay=".15s">
                         <div class="icon">
-                            <img src="{{asset('pixlab/images/icon/icon-1.png')}}" alt="">
+                            <img src="{{asset('pixlab/images/icon/icon-1.png')}}" loading="lazy" alt="Branding & Advertising">
                         </div>
                         <div class="text">
                             <h3 class="title"><a href="{{url('service/branding-advertising')}}">Branding & Advertising</a></h3>

@@ -1,9 +1,9 @@
 <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
 <!--====== Start Pricing Section ======-->
 <section class="pricing-area pricing-area-v3 dark-blue-bg position-relative z-1 pt-120 pb-90" id="pricing">
-    <div class="shape shape-one"><span><img src="{{asset('pixlab/images/shape/pattern-shape-2.png')}}" alt=""></span></div>
-    <div class="shape shape-two scene"><span data-depth=".2"><img src="{{asset('pixlab/images/shape/line-2.png')}}" alt=""></span></div>
-    <div class="shape shape-three scene"><span data-depth=".3"><img src="{{asset('pixlab/images/shape/line-3.png')}}" alt=""></span></div>
+    <div class="shape shape-one"><span><img src="{{asset('pixlab/images/shape/pattern-shape-2.png')}}" loading="lazy" alt=""></span></div>
+    <div class="shape shape-two scene"><span data-depth=".2"><img src="{{asset('pixlab/images/shape/line-2.png')}}" loading="lazy" alt=""></span></div>
+    <div class="shape shape-three scene"><span data-depth=".3"><img src="{{asset('pixlab/images/shape/line-3.png')}}" loading="lazy" alt=""></span></div>
     <div class="container">
         <div class="row align-items-end">
             <div class="col-lg-6">
@@ -27,7 +27,7 @@
                             <div class="pricing-head text-center">
                                 <span class="plan">Basic Plan</span>
                                 <h2 class="price" style="font-size:50px"><span class="currency">$</span>30.79<span class="duration">/Monthly</span></h2>
-                                <img src="{{asset('pixlab/images/icon/icon-20.png')}}" alt="">
+                                <img src="{{asset('pixlab/images/icon/icon-20.png')}}" loading="lazy" alt="Basic Plan Icon">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
@@ -49,7 +49,7 @@
                             <div class="pricing-head text-center">
                                 <span class="plan">Standard Plan</span>
                                 <h2 class="price" style="font-size:50px"><span class="currency">$</span>61.57<span class="duration">/Monthly</span></h2>
-                                <img src="{{asset('pixlab/images/icon/icon-21.png')}}" alt="">
+                                <img src="{{asset('pixlab/images/icon/icon-21.png')}}" loading="lazy" alt="Standard Plan Icon">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
@@ -71,7 +71,7 @@
                             <div class="pricing-head text-center">
                                 <span class="plan">Enterprise Plan</span>
                                 <h2 class="price" style="font-size:50px"><span class="currency">$</span>123.57<span class="duration">/Monthly</span></h2>
-                                <img src="{{asset('pixlab/images/icon/icon-22.png')}}" alt="">
+                                <img src="{{asset('pixlab/images/icon/icon-22.png')}}" loading="lazy" alt="Enterprise Plan Icon">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
@@ -97,7 +97,7 @@
                             <div class="pricing-head text-center">
                                 <span class="plan">Basic Plan</span>
                                 <h2 class="price" style="font-size:50px"><span class="currency">$</span>307.9<span class="duration">/Yearly</span></h2>
-                                <img src="{{asset('pixlab/images/icon/icon-20.png')}}" alt="">
+                                <img src="{{asset('pixlab/images/icon/icon-20.png')}}" loading="lazy" alt="Basic Plan Icon">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
@@ -119,7 +119,7 @@
                             <div class="pricing-head text-center">
                                 <span class="plan">Standard Plan</span>
                                 <h2 class="price" style="font-size:50px"><span class="currency">$</span>615.7<span class="duration">/Yearly</span></h2>
-                                <img src="{{asset('pixlab/images/icon/icon-21.png')}}" alt="">
+                                <img src="{{asset('pixlab/images/icon/icon-21.png')}}" loading="lazy" alt="Basic Plan Icon">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">
@@ -141,7 +141,7 @@
                             <div class="pricing-head text-center">
                                 <span class="plan">Enterprise Plan</span>
                                 <h2 class="price" style="font-size:50px"><span class="currency">$</span>1,235.7<span class="duration">/Yearly</span></h2>
-                                <img src="{{asset('pixlab/images/icon/icon-22.png')}}" alt="">
+                                <img src="{{asset('pixlab/images/icon/icon-22.png')}}" loading="lazy" alt="Enterprise Plan Icon">
                             </div>
                             <div class="pricing-body">
                                 <ul class="pricing-list">

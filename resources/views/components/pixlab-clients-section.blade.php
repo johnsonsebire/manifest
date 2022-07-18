@@ -18,37 +18,37 @@
         <div class="partners-slider-one">
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/bizonlive.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/bizonlive.png')}}" loading="lazy" alt="BizOnLive Logo"></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/barjul-travels.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/barjul-travels.png')}}" loading="lazy" alt="Barjul Travels Logo"></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/certifiedghana.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/certifiedghana.png')}}" loading="lazy" alt="Certified Ghana Logo"></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/ermitrade.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/ermitrade.png')}}" loading="lazy" alt="Ermitrade Travels Logo"></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/hcp.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/hcp.png')}}" loading="lazy" alt="HCP Support Services Logo"></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/cocoa360.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/cocoa360.png')}}" loading="lazy" alt="Cocoa360 Logo"></a>
                 </div>
             </div>
             <div class="partner-item">
                 <div class="img-holder">
-                    <a href="#"><img src="{{asset('pixlab/images/partners/jeercare.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('pixlab/images/partners/jeercare.png')}}" loading="lazy" alt="JeerCare Logo"></a>
                 </div>
             </div>
         </div>

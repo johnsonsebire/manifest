@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="img-holder mb-50 wow fadeInLeft">
-                    <img src="{{asset('pixlab/images/about/about-us.jpg')}}" alt="About Us">
+                    <img src="{{asset('pixlab/images/about/about-us.jpg')}}" loading="lazy" alt="About Us">
                 </div>
             </div>
             <div class="col-lg-6">
