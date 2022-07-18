@@ -12,8 +12,20 @@ class frontendController extends Controller
         return view('frontend.home');
     }
 
+    public function pages($page){
+        switch ($page) {
+            case '':
+                return view('frontend.new');
+
+                break;
+            
+            default:
+                return view('frontend.comingsoon'); 
+                break;
+        }
+    }
+
     public function service($service){
-        
 
         switch ($service) {
             case 'sap-consulting':
