@@ -11,9 +11,11 @@ class LanguageSwitcher extends Component
 
 
     public function mount(){
+
         if(!is_null(session()->get('locale'))){
 
             $this->language=session()->get('locale');
+
         } else {
             $this->language="English";
         }
@@ -28,7 +30,7 @@ class LanguageSwitcher extends Component
                 $this->default_language="French";
                 break;
             default:
-                # code...
+                $this->default_language="English";
                 break;
         }
         // $this->default_language=session()->get('locale');
