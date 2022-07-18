@@ -16,7 +16,6 @@ class frontendController extends Controller
         switch ($page) {
             case '':
                 return view('frontend.new');
-
                 break;
             
             default:
@@ -29,7 +28,7 @@ class frontendController extends Controller
 
         switch ($industry) {
             case '':
-                
+
                 return redirect()->back();
 
                 break;

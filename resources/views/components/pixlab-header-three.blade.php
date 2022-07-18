@@ -158,7 +158,7 @@
                             </li>
                             
 
-                            <li class="menu-item"><a href="{{url('login')}}" class="page-scroll nav-link">{{__('Login')}}</a></li> 
+                            <li class="menu-item"><a href="/login" class="nav-link">{{__('Login')}}</a></li> 
                         </ul>
                     </nav>
                 </div>
