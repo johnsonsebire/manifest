@@ -11,7 +11,14 @@ class LanguageSwitcher extends Component
 
 
     public function mount(){
-        $this->language=session()->get('locale');
+        if(!is_null(session()->get('locale'))){
+
+            $this->language=session()->get('locale');
+        } else {
+            $this->language="English";
+        }
+        
+        ;
 
         switch ($this->language) {
             case 'en':
