@@ -99,29 +99,29 @@
   <livewire:scripts />
 
   <!--====== Jquery js ======-->
-  <script src="{{asset('pixlab/vendor/jquery-3.6.0.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/jquery-3.6.0.min.js')}}" defer></script>
   <!--====== Bootstrap js ======-->
-  <script src="{{asset('pixlab/vendor/popper/popper.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/popper/popper.min.js')}}" defer></script>
   <!--====== Bootstrap js ======-->
-  <script src="{{asset('pixlab/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/bootstrap/js/bootstrap.min.js')}}" defer></script>
   <!--====== Slick js ======-->
-  <script src="{{asset('pixlab/vendor/slick/slick.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/slick/slick.min.js')}}" defer></script>
   <!--====== Magnific js ======-->
-  <script src="{{asset('pixlab/vendor/magnific-popup/dist/jquery.magnific-popup.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/magnific-popup/dist/jquery.magnific-popup.min.js')}}" defer></script>
   <!--====== Isotope js ======-->
-  <script src="{{asset('pixlab/vendor/isotope.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/isotope.min.js')}}" defer></script>
   <!--====== Imagesloaded js ======-->
-  <script src="{{asset('pixlab/vendor/imagesloaded.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/imagesloaded.min.js')}}" defer></script>
   <!--====== Counterup js ======-->
-  <script src="{{asset('pixlab/vendor/jquery.counterup.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/jquery.counterup.min.js')}}" defer></script>
   <!--====== Waypoints js ======-->
-  <script src="{{asset('pixlab/vendor/jquery.waypoints.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/jquery.waypoints.js')}}" defer></script>
   <!--====== Nice-select js ======-->
-  <script src="{{asset('pixlab/vendor/nice-select/js/jquery.nice-select.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/nice-select/js/jquery.nice-select.min.js')}}" defer></script>
   <!--====== WOW js ======-->
-  <script src="{{asset('pixlab/vendor/wow.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/wow.min.js')}}" defer></script>
   <!--====== Parallax js ======-->
-  <script src="{{asset('pixlab/vendor/parallax.min.js')}}"></script>
+  <script src="{{asset('pixlab/vendor/parallax.min.js')}}" defer></script>
   <!--====== Main js ======-->
   
-  <script src="{{asset('pixlab/js/theme.js')}}"></script>
+  <script src="{{asset('pixlab/js/theme.js')}}" defer></script>

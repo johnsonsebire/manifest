@@ -23,7 +23,7 @@
 
             
             <!--Start of Tawk.to Script-->
-            <script type="text/javascript">
+            <script type="text/javascript" defer>
                 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
                 (function(){
                 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -37,7 +37,7 @@
             <!--End of Tawk.to Script-->
 
             <!--====== Adroll Script ======-->
-            <script type="text/javascript">
+            <script type="text/javascript" defer>
                 adroll_adv_id = "AQ2R5DIFSJCN7OAU4GZZQQ";
                 adroll_pix_id = "EHEQWSQJGFE5PNFIC5VGM6";
                 adroll_version = "2.0";
