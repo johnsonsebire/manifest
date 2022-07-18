@@ -49,7 +49,6 @@ class frontendController extends Controller
                    
                 ];
 
-               
 
                 
                 return view('services.sap-consulting', compact('highlights_data_passed', 'banner')); 
