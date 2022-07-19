@@ -164,7 +164,7 @@
                 </div>
                 <div class="header-right-nav">
                     <ul>
-                        <li class="nav-button"><a href="{{url('https://tawk.to/chat/554b259ef82948372f4615b6/1e9lrte10')}}" class="main-btn arrow-btn">{{__("Let’s Talk")}}</a></li>
+                        <li class="nav-button"><a href="{{url('https://tawk.to/chat/554b259ef82948372f4615b6/1e9lrte10')}}" class="main-btn arrow-btn">{{__("Let's Talk")}}</a></li>
                         <li class="bar-item"><img src="{{asset('pixlab/images/bar.png')}}" alt="button"></li>
                         <li class="navbar-toggle-btn">
                             <div class="navbar-toggler">

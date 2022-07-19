@@ -13,7 +13,7 @@
             </p>
         </div>
         <div class="contact-us">
-            <h5 class="panel-widget-title">Contact Us</h5>
+            <h5 class="panel-widget-title">{{__("Contact Us")}}</h5>
             <ul>
                 {{-- <li>
                     <i class="fal fa-map-marker-alt"></i>
