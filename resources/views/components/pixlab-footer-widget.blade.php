@@ -77,7 +77,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="widget newsletter-widget mb-40 wow fadeInUp" data-wow-delay=".30s">
                         <div class="newsletter-content">
-                            <h3>{{__("Don't miss an update!")}}</h3>
+                            <h4 class="widget-title">{{__("Don't Miss An Update!")}}</h4>
                             <p> {{__('Subscribe to our monthly newsletter! We do not spam you.')}}</p>
                             <form>
                                 <div class="form_group">
