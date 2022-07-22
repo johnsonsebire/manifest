@@ -18,6 +18,11 @@
             </div>
             <div class="col-lg-7">
                 <div class="cta-img text-lg-right mb-55 wow fadeInRight">
+                    <div class="row">
+                        <div class="col-md-4"><a target="_blank" href="https://www.goodfirms.co/directory/cms/top-website-development-companies"><img style="width:243px" src="https://assets.goodfirms.co/badges/color-badge/top-website-development-companies.svg" alt="GoodFirms Badge"></a></div>
+                        <div class="col-md-4"><a target="_blank" href="https://www.goodfirms.co/directory/services/list-blockchain-technology-companies"><img style="width:243px" src="https://assets.goodfirms.co/badges/normal-badge/list-blockchain-technology-companies.svg" alt="GoodFirms Badge"></a></div>
+                        <div class="col-md-4" ><a target="_blank" href="https://www.goodfirms.co/directory/platform/app-development"><img style="width:243px" src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" alt="GoodFirms Badge"></a></div>
+                    </div>
                     {{-- <img src="{{asset('pixlab/images/cta/img-2.png')}}" alt=""> --}}
                 </div>
             </div>
