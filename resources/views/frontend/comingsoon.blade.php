@@ -15,7 +15,7 @@
                     </div>
                     
                     <div class="col-xl-12">
-                        <div id="DateCountdown" data-date="2022-07-22 00:00:00"></div>
+                        <div id="DateCountdown" data-date="2022-07-29 00:00:00"></div>
                     </div>
 
                     <div class="col-xl-5 col-lg-7 col-md-9">

@@ -12,6 +12,8 @@ class LanguageSwitcher extends Component
 
     public function mount(){
 
+
+       
         // ZohoCampaigns();
 
         if(!is_null(session()->get('locale'))){
