@@ -23,6 +23,11 @@
                         <div class="col-md-4"><a target="_blank" href="https://www.goodfirms.co/directory/services/list-blockchain-technology-companies"><img style="width:243px" src="https://assets.goodfirms.co/badges/normal-badge/list-blockchain-technology-companies.svg" alt="GoodFirms Badge"></a></div>
                         <div class="col-md-4" ><a target="_blank" href="https://www.goodfirms.co/directory/platform/app-development"><img style="width:243px" src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" alt="GoodFirms Badge"></a></div>
                     </div>
+                    <!-- TrustBox widget - Micro Review Count -->
+<div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5c9b54e6184db30001a49904" data-style-height="24px" data-style-width="100%" data-theme="dark" data-min-review-count="10">
+    <a href="https://www.trustpilot.com/review/manifestghana.com" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
+  <!-- End TrustBox widget -->
                     {{-- <img src="{{asset('pixlab/images/cta/img-2.png')}}" alt=""> --}}
                 </div>
             </div>

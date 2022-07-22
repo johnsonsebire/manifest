@@ -5,13 +5,23 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="footer-logo mb-40 wow fadeInLeft">
-                           <div class="text-center">
+                           {{-- <div class="text-center">
                                <img src="{{asset('frontend/images/logo/logo.png')}}" alt="Brand Logo">
-                            </div> 
+                            </div>  --}}
+                            <div class="text-center">
+                                <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+
+                                    <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script> <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="2" data-height="45" data-clutchcompany-id="1898916"></div>
+                                </div>
+                                <div class="col-md-3"></div>
+                                </div>
+                            </div>
                             <!-- TrustBox widget - Micro Review Count -->
-<div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5c9b54e6184db30001a49904" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10">
+{{-- <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5c9b54e6184db30001a49904" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10">
     <a href="https://www.trustpilot.com/review/manifestghana.com" target="_blank" rel="noopener">Trustpilot</a>
-  </div>
+  </div> --}}
   <!-- End TrustBox widget -->
                         </div>
                     </div>
