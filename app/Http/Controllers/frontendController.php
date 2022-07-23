@@ -17,6 +17,12 @@ class frontendController extends Controller
             case '':
                 return view('frontend.new');
                 break;
+            case 'dashboard':
+                return view('dashboard');
+                break;
+            case 'legal':
+                return view('frontend.new');
+                break;
             
             default:
                 return view('frontend.comingsoon'); 

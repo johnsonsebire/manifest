@@ -12,7 +12,8 @@
             <div class="col-lg-6">
                 <div class="hero-content">
                     {{-- <a href="https://www.youtube.com/watch?v=AT6oSIDbGkw" class="video-popup wow fadeInUp" data-wow-delay=".3s"><i class="fas fa-play"></i></a> --}}
-                    <h1 class="wow fadeInUp" data-wow-delay=".5s">{{__('Trusted Full Stack IT Company')}}</h1>
+                   
+                <h1 class="wow fadeInUp" data-wow-delay=".5s">{{__('Trusted Full Stack IT Company')}}</h1>
                     <p class="wow fadeInUp" data-wow-delay=".6s">{{__('We build strategic, engaging experiences that reinforce credibility, communicate key information and turn prospects into profits.')}}</p>
                     
                     <a href="{{url('#services')}}" class="main-btn bordered-btn btn-white arrow-btn wow fadeInUp" data-wow-delay=".7s">{{__('View Services')}}</a>
